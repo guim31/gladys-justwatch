@@ -1,0 +1,1076 @@
+{
+  "data": {
+    "newTitles": {
+      "totalCount": 153,
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "MTUz"
+      },
+      "edges": [
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm114025",
+            "content": {
+              "title": "Knallharte Jungs",
+              "fullPath": "/de/Film/Knallharte-Jungs",
+              "originalReleaseYear": 2002
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm782243",
+            "content": {
+              "title": "Marianengraben",
+              "fullPath": "/de/Film/marianengraben",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1903526",
+            "content": {
+              "title": "These Damn Kids",
+              "fullPath": "/de/Film/these-damn-kids",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm852528",
+            "content": {
+              "title": "Arendelles Weihnachtsfeuer",
+              "fullPath": "/de/Film/Arendelle-Castle-Yule-Log",
+              "originalReleaseYear": 2019
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm178472",
+            "content": {
+              "title": "Stonados - Wenn es Felsen regnet",
+              "fullPath": "/de/Film/Stonados-Wenn-es-Felsen-regnet",
+              "originalReleaseYear": 2013
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss576295",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/the-murderous-scissor-sisters/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts441287",
+              "content": {
+                "title": "The Murderous Scissor Sisters",
+                "fullPath": "/de/Serie/the-murderous-scissor-sisters",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1523259",
+            "content": {
+              "title": "Last Date",
+              "fullPath": "/de/Film/last-date",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1467867",
+            "content": {
+              "title": "Friends 2 Foe",
+              "fullPath": "/de/Film/friends-2-foe",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1118493",
+            "content": {
+              "title": "Hekate",
+              "fullPath": "/de/Film/hekate",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1622500",
+            "content": {
+              "title": "Die jüngste Tochter",
+              "fullPath": "/de/Film/die-juengste-tochter",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1562277",
+            "content": {
+              "title": "Carrie Underwood: Reflection",
+              "fullPath": "/de/Film/carrie-underwood-reflection",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm425918",
+            "content": {
+              "title": "Broadway Hits at London's Royal Albert Hall",
+              "fullPath": "/de/Film/Disneys-Broadway-Hits-at-Royal-Albert-Hall",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1432643",
+            "content": {
+              "title": "Oslo-Stories: Liebe",
+              "fullPath": "/de/Film/kjaerlighet",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss97913",
+            "content": {
+              "title": "Staffel 6",
+              "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet/Staffel-6",
+              "seasonNumber": 6
+            },
+            "show": {
+              "id": "ts38704",
+              "content": {
+                "title": "Die Yukon-Tierärztin",
+                "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1523391",
+            "content": {
+              "title": "Powerball",
+              "fullPath": "/de/Film/powerball",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss424846",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/schottlands-neue-wildnis/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts409030",
+              "content": {
+                "title": "Schottlands neue Wildnis",
+                "fullPath": "/de/Serie/schottlands-neue-wildnis",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1151153",
+            "content": {
+              "title": "Clotilda - Amerikas letztes Sklavenschiff",
+              "fullPath": "/de/Film/Clotilda-Last-American-Slave-Ship",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1475525",
+            "content": {
+              "title": "Mother May I",
+              "fullPath": "/de/Film/mother-may-i-2024",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1273219",
+            "content": {
+              "title": "Nasty",
+              "fullPath": "/de/Film/nasty-2022",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm916947",
+            "content": {
+              "title": "Hamilton: History Has Its Eyes on You",
+              "fullPath": "/de/Film/Hamilton-History-Has-Its-Eyes-On-You",
+              "originalReleaseYear": 2020
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1151565",
+            "content": {
+              "title": "Explorer: Der letzte Tepui",
+              "fullPath": "/de/Film/Explorer-The-Last-Tepui",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1243815",
+            "content": {
+              "title": "Cinderella: The Reunion - A Special Edition of 20/20",
+              "fullPath": "/de/Film/Cinderella-The-Reunion-A-Special-Edition-of-20-20",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1663665",
+            "content": {
+              "title": "Lilith Fair Building A Mystery - The Untold Story",
+              "fullPath": "/de/Film/lilith-fair-building-a-mystery",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm117808",
+            "content": {
+              "title": "Love Liza",
+              "fullPath": "/de/Film/love-liza",
+              "originalReleaseYear": 2002
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1094254",
+            "content": {
+              "title": "Servus Papa, See You in Hell",
+              "fullPath": "/de/Film/Servus-Papa-See-You-in-Hell",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss304597",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Turning-the-Tables-with-Robin-Roberts/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts288962",
+              "content": {
+                "title": "Mach den Unterschied mit Robin Roberts",
+                "fullPath": "/de/Serie/Turning-the-Tables-with-Robin-Roberts",
+                "originalReleaseYear": 2021
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm431848",
+            "content": {
+              "title": "Fabelhafte Welt der Wale",
+              "fullPath": "/de/Film/Fabelhafte-Welt-der-Wale",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm76378",
+            "content": {
+              "title": "Warum Männer nicht zuhören und Frauen schlecht einparken",
+              "fullPath": "/de/Film/Warum-Maenner-nicht-zuhoeren-und-Frauen-schlecht-einparken",
+              "originalReleaseYear": 2007
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1670013",
+            "content": {
+              "title": "Another Place",
+              "fullPath": "/de/Film/another-place",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1385522",
+            "content": {
+              "title": "Explorer: Der Lavasee",
+              "fullPath": "/de/Film/explorer-lake-of-fire",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1205224",
+            "content": {
+              "title": "The Kardashians: An ABC News Special",
+              "fullPath": "/de/Film/The-Kardashians-An-ABC-News-Special",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1254384",
+            "content": {
+              "title": "Queen Elizabeth II: A Royal Life - A Special Edition of 20/20",
+              "fullPath": "/de/Film/queen-elizabeth-ii-a-royal-life-a-special-edition-of-20-20",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm285590",
+            "content": {
+              "title": "Nationalpark im Ozean",
+              "fullPath": "/de/Film/Sea-of-Hope-Americas-Underwater-Treasures",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss227423",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/One-Day-at-Disney/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts220233",
+              "content": {
+                "title": "Ein Tag bei Disney",
+                "fullPath": "/de/Serie/One-Day-at-Disney",
+                "originalReleaseYear": 2019
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss521044",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/Shipwreck-Hunters-Australia/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts288958",
+              "content": {
+                "title": "Schiffswrackjäger: Australien",
+                "fullPath": "/de/Serie/Shipwreck-Hunters-Australia",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm108005",
+            "content": {
+              "title": "Rhythmus im Blut",
+              "fullPath": "/de/Film/Gotta-Kick-It-Up",
+              "originalReleaseYear": 2002
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm289079",
+            "content": {
+              "title": "Hammerhaie Hautnah",
+              "fullPath": "/de/Film/Mega-Hammerhead",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss66693",
+            "content": {
+              "title": "Staffel 3",
+              "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet/Staffel-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts38704",
+              "content": {
+                "title": "Die Yukon-Tierärztin",
+                "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1640790",
+            "content": {
+              "title": "Das Wunder von Stoneford",
+              "fullPath": "/de/Film/das-wunder-von-stoneford",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm233563",
+            "content": {
+              "title": "Demimonde",
+              "fullPath": "/de/Film/demimonde",
+              "originalReleaseYear": 2015
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm444951",
+            "content": {
+              "title": "SpaceX - Die Reise zum Mars",
+              "fullPath": "/de/Film/SpaceX-Die-Reise-zum-Mars",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm77963",
+            "content": {
+              "title": "Johnny Kapahala: Zurück auf Hawaii",
+              "fullPath": "/de/Film/Johnny-Kapahala-Zurueck-auf-Hawaii",
+              "originalReleaseYear": 2007
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1302990",
+            "content": {
+              "title": "Sieben Winter in Teheran",
+              "fullPath": "/de/Film/seven-winters-in-tehran",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1631937",
+            "content": {
+              "title": "Loyalty Over Trust",
+              "fullPath": "/de/Film/loyalty-over-trust",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1926954",
+            "content": {
+              "title": "Michelle Obama: The Style, The Power, The Look- A Conversation with Robin Roberts",
+              "fullPath": "/de/Film/michelle-obama-the-style-the-power-the-look-a-conversation-with-robin-roberts",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1423992",
+            "content": {
+              "title": "Chasing the Ghost",
+              "fullPath": "/de/Film/chasing-the-ghost",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm776128",
+            "content": {
+              "title": "The Devil's Jest",
+              "fullPath": "/de/Film/the-devils-jest",
+              "originalReleaseYear": 1954
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1391562",
+            "content": {
+              "title": "Haunted Mansion: Swinging Wake",
+              "fullPath": "/de/Film/haunted-mansion-swinging-wake",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm368010",
+            "content": {
+              "title": "Die Geißel",
+              "fullPath": "/de/Film/die-geissel",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3035887",
+            "content": {
+              "title": "Biggest Sledding Adventure Ever!",
+              "fullPath": "/de/Film/biggest-sledding-adventure-ever",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1227132",
+            "content": {
+              "title": "Der größte Hammerhai der Welt?",
+              "fullPath": "/de/Film/Worlds-Biggest-Hammerhead",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2988594",
+            "content": {
+              "title": "Der erste Frühlingstag mit Rapunzel und Maximus",
+              "fullPath": "/de/Film/der-erste-fruehlingstag-mit-rapunzel-und-maximus",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1425358",
+            "content": {
+              "title": "The Cleaners 2",
+              "fullPath": "/de/Film/the-cleaners-2",
+              "originalReleaseYear": 2024
+            }
+          }
+        }
+      ]
+    }
+  }
+}

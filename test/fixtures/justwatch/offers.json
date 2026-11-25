@@ -1,0 +1,53 @@
+{
+  "errors": [
+    {
+      "message": "resolver.findMergedTitle: no merge target found for tm999999999",
+      "path": ["nodes", 2, "content"],
+      "extensions": {
+        "code": "INTERNAL_ERROR"
+      }
+    }
+  ],
+  "data": {
+    "nodes": [
+      {
+        "__typename": "Show",
+        "id": "ts17132",
+        "content": {
+          "title": "Dune",
+          "fullPath": "/fr/serie/dune",
+          "originalReleaseYear": 2000
+        },
+        "offers": []
+      },
+      {
+        "__typename": "Show",
+        "id": "ts320458",
+        "content": {
+          "title": "Severance",
+          "fullPath": "/fr/serie/severance",
+          "originalReleaseYear": 2022
+        },
+        "offers": [
+          {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          }
+        ]
+      },
+      null
+    ]
+  }
+}

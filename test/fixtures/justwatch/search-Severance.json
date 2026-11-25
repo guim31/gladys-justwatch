@@ -1,0 +1,110 @@
+{
+  "data": {
+    "popularTitles": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "Show",
+            "id": "ts320458",
+            "content": {
+              "title": "Severance",
+              "fullPath": "/fr/serie/severance",
+              "originalReleaseYear": 2022
+            },
+            "offers": [
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 381,
+                  "clearName": "Canal+",
+                  "shortName": "cpd"
+                }
+              },
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 381,
+                  "clearName": "Canal+",
+                  "shortName": "cpd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "__typename": "Movie",
+            "id": "tm38670",
+            "content": {
+              "title": "Severance",
+              "fullPath": "/fr/film/severance",
+              "originalReleaseYear": 2006
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Movie",
+            "id": "tm434170",
+            "content": {
+              "title": "Severance",
+              "fullPath": "/fr/film/severance-1988",
+              "originalReleaseYear": 1988
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Show",
+            "id": "ts32364",
+            "content": {
+              "title": "Dans les coulisses des urgences",
+              "fullPath": "/fr/serie/untold-stories-of-the-e-r",
+              "originalReleaseYear": 2004
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Show",
+            "id": "ts453954",
+            "content": {
+              "title": "Complicités",
+              "fullPath": "/fr/serie/the-better-sister",
+              "originalReleaseYear": 2025
+            },
+            "offers": [
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 119,
+                  "clearName": "Amazon Prime Video",
+                  "shortName": "prv"
+                }
+              },
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 119,
+                  "clearName": "Amazon Prime Video",
+                  "shortName": "prv"
+                }
+              },
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 119,
+                  "clearName": "Amazon Prime Video",
+                  "shortName": "prv"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

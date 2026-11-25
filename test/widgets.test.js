@@ -1,77 +1,113 @@
+// -----------------------------------------------------------------------------
+// The `new_titles` widget (checked by the SDK's own validator, in the four
+// languages) and the `where_to_watch` scene action.
+// -----------------------------------------------------------------------------
+
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { validateWidgetContent } from '@gladysassistant/integration-sdk';
-import { createFakeGladys } from '@gladysassistant/integration-sdk/testing';
-import { buildDiscoveredDevices } from '../src/devices/index.js';
-import { simulateLanSession } from '../src/devices/plug.js';
-import { DEMO_STATUS_WIDGET, WIDGETS, refreshWidgets } from '../src/widgets.js';
-import { normalizeConfig } from '../src/config.js';
+import { LANGUAGES } from '../src/config.js';
+import { BASE_CONFIG, createWorld } from './helpers/world.js';
 
-const gladys = createFakeGladys();
-const config = normalizeConfig();
-const demoStatus = WIDGETS[DEMO_STATUS_WIDGET];
+async function world(t, options) {
+  const w = await createWorld(options);
+  t.after(() => w.app.stop());
+  return w;
+}
+const content = async (w, settings = {}, language = 'fr') => {
+  const ack = await w.fake.widgetGet('new_titles', { settings, language });
+  assert.equal(ack.success, true, JSON.stringify(ack.error));
+  return ack.data.content;
+};
+const check = (value) => {
+  assert.deepEqual(validateWidgetContent(value), []);
+};
 
-// What the SDK passes to onWidgetGet, plus the config index.js adds.
-const getContent = (cfg = config) =>
-  demoStatus.get(gladys, { settings: {}, language: 'en', units: 'metric', config: cfg });
+for (const language of LANGUAGES) {
+  test(`the widget passes the SDK validator (${language})`, async (t) => {
+    const w = await world(t);
+    for (const days of ['1', '3', '7']) {
+      check(await content(w, { days }, language));
+    }
+  });
+}
 
-test('the demo_status content is rendered exactly as sent', async () => {
-  // [] = nothing the core would drop, truncate or trim to the content budget.
-  assert.deepEqual(validateWidgetContent(await getContent()), []);
-});
-
-test('the degraded plug connection content is valid too', async () => {
-  simulateLanSession(false);
-  try {
-    const content = await getContent();
-    assert.deepEqual(validateWidgetContent(content), []);
-    const status = content.components.find((component) => component.type === 'status');
-    assert.ok(
-      status.items.some((item) => item.color === 'warning'),
-      'degraded shows a warning',
-    );
-  } finally {
-    simulateLanSession(true);
-  }
-});
-
-test('the live tiles reference features the integration publishes', async () => {
-  const featureIds = new Set(
-    buildDiscoveredDevices(gladys, config).flatMap((device) =>
-      device.features.map((feature) => feature.external_id),
-    ),
+test('the arrivals of today, newest day first, then the watched titles', async (t) => {
+  const w = await world(t);
+  const { components } = await content(w);
+  const [cards, status] = components;
+  assert.equal(cards.type, 'card-list');
+  assert.equal(cards.items.length, 8);
+  assert.deepEqual(cards.items[0], {
+    title: 'Le Seigneur des anneaux : Les Anneaux de pouvoir · S3',
+    subtitle: 'Série · 2022 · Amazon Prime Video',
+    badge: { text: 'Aujourd’hui', color: 'success' },
+    links: [
+      {
+        url: 'https://www.justwatch.com/fr/serie/the-lord-of-the-rings/saison-3',
+        label: 'JustWatch',
+      },
+    ],
+  });
+  assert.deepEqual(
+    status.items.map((row) => [row.label, row.value]),
+    [
+      ['Dune', 'Canal+'],
+      ['Severance', 'Canal+'],
+      ['Dune - Première partie', 'Pas sur vos plateformes'],
+    ],
   );
-  const liveTiles = (await getContent()).components.filter((c) => c.device_feature);
-  assert.ok(liveTiles.length > 0, 'the template demonstrates a device-bound tile');
-  for (const tile of liveTiles) {
-    assert.ok(featureIds.has(tile.device_feature), `unknown feature ${tile.device_feature}`);
-  }
+  // The watched titles device picked as list: every list.
+  const watchlist = w.fake.discoveredDevices.at(-1).external_id;
+  const all = await content(w, { device: watchlist });
+  assert.equal(all.components[0].items.length, 8);
+  const hidden = await content(w, { show_watched: false });
+  assert.equal(hidden.components.length, 1);
 });
 
-test('every button action of the content is handled and answers a short toast', async () => {
-  const buttons = (await getContent()).components.filter((c) => c.type === 'button' && c.action);
-  assert.ok(buttons.length > 0, 'the template demonstrates a widget action');
-  for (const { action } of buttons) {
-    const message = await demoStatus.action(gladys, {
-      actionKey: action.key,
-      params: action.params ?? {},
-      settings: {},
-      config,
-    });
-    assert.ok(message.en, 'the toast carries at least the mandatory `en` text');
-    assert.ok(message.en.length <= 200, 'toasts are capped at 200 characters');
-  }
+test('one list only, and a period without any title', async (t) => {
+  const w = await world(t, { config: { country: 'DE', list_1_platforms: 'Netflix' } });
+  const device = w.fake.discoveredDevices[0].external_id;
+  const today = await content(w, { device, days: '1' }, 'en');
+  assert.deepEqual(today.components, [
+    { type: 'text', variant: 'caption', text: 'Nothing new in this period.' },
+  ]);
+  const week = await content(w, { device, days: '3' }, 'en');
+  assert.equal(week.components[0].items[0].badge.text, 'Yesterday');
 });
 
-test('an unknown widget action fails, so the user sees the error', async () => {
-  await assert.rejects(
-    demoStatus.action(gladys, { actionKey: 'unknown', params: {}, settings: {}, config }),
-    /Unknown widget action/,
-  );
+test('without any list, the widget says so', async (t) => {
+  const w = await world(t, { config: {} });
+  const { components } = await content(w, {}, 'de');
+  assert.equal(components[0].text, 'Keine Plattform eingestellt.');
 });
 
-test('refreshWidgets nudges every widget', () => {
-  const fresh = createFakeGladys();
-  refreshWidgets(fresh);
-  assert.deepEqual(fresh.fake.widgetRefreshes, Object.keys(WIDGETS));
+test('where_to_watch: found on my platforms, not on them, not found', async (t) => {
+  const w = await world(t, { config: BASE_CONFIG });
+  const run = async (title) => {
+    const ack = await w.fake.sceneAction('where_to_watch', { title });
+    assert.equal(ack.success, true, JSON.stringify(ack.error));
+    return ack.data.outputs;
+  };
+  assert.deepEqual(await run('Severance'), {
+    found: 1,
+    title: 'Severance',
+    year: 2022,
+    available: 1,
+    platforms: 'Canal+',
+    url: 'https://www.justwatch.com/fr/serie/severance',
+  });
+  assert.equal((await run('Dune')).available, 0);
+  assert.equal((await run('Dune (1984)')).platforms, 'Canal+');
+  assert.deepEqual(await run('zzqqxxnotatitle'), {
+    found: 0,
+    title: '',
+    year: 0,
+    available: 0,
+    platforms: '',
+    url: '',
+  });
+  w.api.down = 'network';
+  const failed = await w.fake.sceneAction('where_to_watch', { title: 'Severance' });
+  assert.equal(failed.success, false);
 });

@@ -30,6 +30,12 @@ Gladys before reporting a problem.
 
 In scope: the code of this repository and the Docker image it publishes.
 
+The integration needs no account, key or password. It stores one file in
+`/data` (`justwatch.json`): the ids of the titles already seen per list, and
+the JustWatch id and platforms of each watched title. It only calls
+`https://apis.justwatch.com/graphql`, sending the country, the language, the
+platform codes and the titles searched; it opens no port.
+
 Out of scope: Gladys Assistant itself (see its
 [security policy](https://github.com/GladysAssistant/Gladys/security/policy)),
-and the third-party services and devices the integration talks to.
+and JustWatch, the third-party service the integration reads.
