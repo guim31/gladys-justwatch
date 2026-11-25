@@ -228,3 +228,13 @@ test('onDeviceCreated publishes every state of that device again', async (t) => 
   assert.equal(count(), before + 1);
   assert.ok(w.fake.widgetRefreshes.includes('new_titles'));
 });
+
+test('a watched title missing from the catalog of the country counts as not available', async (t) => {
+  const w = await world(t);
+  await createAll(w);
+  w.api.nodes.delete('ts320458');
+  await cycle(w);
+  const watch = watchlistIds(w.gladys);
+  assert.deepEqual(w.monitor.data.watched.Severance.platforms, []);
+  assert.equal(w.fake.lastState(watch.available), 1);
+});

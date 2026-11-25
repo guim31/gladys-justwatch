@@ -94,6 +94,9 @@ test('the configuration is read safely', () => {
   assert.equal(config.refreshMinutes, 120);
   assert.equal(config.language, 'fr');
   assert.deepEqual(splitList('a, b'), ['a', 'b']);
+  assert.deepEqual(normalizeConfig({ watched_titles: 'Love, Death & Robots' }).watched, [
+    { text: 'Love, Death & Robots', query: 'Love, Death & Robots', year: 0 },
+  ]);
   const many = Array.from({ length: 22 }, (_, i) => `Title ${i}`).join('; ');
   assert.equal(normalizeConfig({ watched_titles: many }).droppedWatched.length, 2);
 });

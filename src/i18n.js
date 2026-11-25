@@ -90,7 +90,7 @@ export const STATUS = {
   initFailed: {
     en: 'The integration could not start: see its logs.',
     fr: 'L’intégration n’a pas pu démarrer : voir ses journaux.',
-    de: 'Die Integration konnte nicht starten: Sieh in ihre Protokolle.',
+    de: 'Die Integration konnte nicht starten: Sieh in ihren Protokollen nach.',
     es: 'La integración no pudo iniciarse: consulte sus registros.',
   },
   apiDown: {

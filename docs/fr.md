@@ -121,7 +121,8 @@ pour choisir une version : `Dune (1984)`.
 - L'intégration reste une visiteuse discrète : une requête à la fois, espacées d'une seconde, un User-Agent honnête,
   et un cache. À chaque lecture : deux à quatre requêtes par liste (aujourd'hui et hier), une pour tous les titres
   surveillés ; les cinq jours plus anciens sont lus une fois par jour, les plateformes du pays une fois par jour,
-  chaque titre surveillé est cherché une fois.
+  chaque titre surveillé est cherché une fois. La toute
+  première lecture d'une liste lit ses sept jours (une dizaine de requêtes, une dizaine de secondes).
 - Titres, années et liens appartiennent à JustWatch et à ses sources. Rien n'est envoyé à JustWatch au-delà du pays,
   de la langue, des plateformes et des titres cherchés.
 

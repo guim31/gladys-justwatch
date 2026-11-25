@@ -75,6 +75,12 @@ function badgeOf(back, language) {
  * @param {{ settings?: object, language?: string }} request
  */
 export function newTitlesContent(monitor, { settings = {}, language = 'en' } = {}) {
+  if (!monitor.config) {
+    return {
+      ttl_seconds: 30,
+      components: [{ type: 'text', variant: 'caption', text: say('loading', language) }],
+    };
+  }
   const lists = monitor.activeLists();
   if (monitor.config.lists.length === 0) {
     return {
@@ -82,10 +88,11 @@ export function newTitlesContent(monitor, { settings = {}, language = 'en' } = {
       components: [{ type: 'text', variant: 'body', text: say('noList', language) }],
     };
   }
-  const chosen = lists.filter(
-    (entry) =>
-      !settings.device || listIds(monitor.gladys, entry.list.slot).device === settings.device,
+  // A device that is no list (the watched titles, a list removed): every list.
+  const picked = lists.filter(
+    (entry) => listIds(monitor.gladys, entry.list.slot).device === settings.device,
   );
+  const chosen = picked.length > 0 ? picked : lists;
   if (!chosen.some((entry) => entry.byDay)) {
     return {
       ttl_seconds: 30,

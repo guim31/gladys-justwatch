@@ -115,7 +115,8 @@ version: `Dune (1984)`.
   stop reading until an update. Please use it reasonably, for your household.
 - The integration stays a light visitor: one request at a time, a second apart, an honest User-Agent, and a cache.
   At each reading: two to four requests per list (today and yesterday), one for all the watched titles; the five
-  older days are read once a day, the platforms of the country once a day, each watched title is searched once.
+  older days are read once a day, the platforms of the country once a day, each watched title is searched once. The very first
+  reading of a list reads its seven days (about ten requests, ten seconds).
 - Titles, years and links belong to JustWatch and its sources. Nothing is sent to JustWatch beyond the country, the
   language, the platforms and the titles searched.
 

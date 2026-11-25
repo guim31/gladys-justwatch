@@ -118,7 +118,8 @@ elegir una versión: `Dune (1984)`.
 - La integración es un visitante discreto: una petición cada vez, separadas por un segundo, un User-Agent honesto y
   una caché. En cada lectura: de dos a cuatro peticiones por lista (hoy y ayer), una para todos los títulos
   vigilados; los cinco días anteriores se leen una vez al día, las plataformas del país una vez al día, y cada título
-  vigilado se busca una vez.
+  vigilado se busca una vez. La primera lectura de una lista lee sus siete días (unas diez peticiones, unos diez
+  segundos).
 - Los títulos, años y enlaces pertenecen a JustWatch y a sus fuentes. No se envía nada a JustWatch aparte del país, el
   idioma, las plataformas y los títulos buscados.
 

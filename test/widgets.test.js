@@ -57,6 +57,10 @@ test('the arrivals of today, newest day first, then the watched titles', async (
       ['Dune - Première partie', 'Pas sur vos plateformes'],
     ],
   );
+  // The watched titles device picked as list: every list.
+  const watchlist = w.fake.discoveredDevices.at(-1).external_id;
+  const all = await content(w, { device: watchlist });
+  assert.equal(all.components[0].items.length, 8);
   const hidden = await content(w, { show_watched: false });
   assert.equal(hidden.components.length, 1);
 });

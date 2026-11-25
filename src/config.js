@@ -51,12 +51,13 @@ export const DEFAULT_CONFIG = {
 };
 
 /**
- * Split a typed list: on semicolons and new lines when there are any (a title
- * may hold a comma: "Love, Death & Robots"), else on commas.
+ * Split a typed list: platforms on commas, semicolons and new lines; titles
+ * (`titles: true`) on semicolons and new lines only, a title may hold a comma
+ * ("Love, Death & Robots").
  */
-export function splitList(text) {
+export function splitList(text, { titles = false } = {}) {
   const value = String(text ?? '');
-  const separator = /[;\n]/.test(value) ? /[;\n]+/ : /,+/;
+  const separator = titles ? /[;\n]+/ : /[,;\n]+/;
   const items = [];
   for (const item of value.split(separator)) {
     const clean = item.trim().replace(/\s+/g, ' ');
@@ -80,7 +81,7 @@ export function normalizeConfig(raw = {}) {
   const source = raw && typeof raw === 'object' ? raw : {};
   const country = String(source.country ?? '').toUpperCase();
   const refresh = String(source.refresh_interval ?? '');
-  const watched = splitList(source.watched_titles);
+  const watched = splitList(source.watched_titles, { titles: true });
   return {
     country: COUNTRIES.includes(country) ? country : DEFAULT_CONFIG.country,
     lists: LIST_SLOTS.map((slot) => {

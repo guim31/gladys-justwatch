@@ -142,7 +142,7 @@ export class Monitor {
       this.data = { ...emptyData(), ...saved };
     }
     this.warnAboutConfig();
-    await this.publishDiscovered();
+    // The devices are published by the first cycle, once the platforms are known.
     logger.info(
       `Started: ${config.lists.length} list(s) and ${config.watched.length} watched title(s) in ${config.country}, read every ${config.refreshMinutes} min`,
     );
@@ -269,7 +269,6 @@ export class Monitor {
       } catch (err) {
         unreachable += 1;
         this.failed('api', 'warn', `Reading JustWatch failed: ${err.message}`);
-        logger.debug(err.message);
       }
     };
 
@@ -406,6 +405,10 @@ export class Monitor {
     const now = this.now();
     const slot = entry.list.slot;
     let saved = this.data.lists[slot];
+    // A list whose platforms changed starts over quietly: what it lists then is
+    // not news. (Should JustWatch drop a platform for a day, the titles that
+    // arrive meanwhile on the others are taken as known too: a rare miss
+    // rather than a flood.)
     if (!saved || saved.signature !== entry.signature) {
       saved = { signature: entry.signature, seen: {}, last: saved?.last ?? null };
       this.data.lists[slot] = saved;
@@ -469,8 +472,10 @@ export class Monitor {
       if (found) {
         this.data.watched[watched.text] = { id: found.id, title: found, platforms: null };
       } else {
+        if (!saved) {
+          logger.warn(`Title not found on JustWatch: ${watched.text}`);
+        }
         this.data.watched[watched.text] = { id: null, notFoundAt: now };
-        logger.warn(`Title not found on JustWatch: ${watched.text}`);
       }
     }
     const ids = this.config.watched
@@ -483,8 +488,13 @@ export class Monitor {
     const events = [];
     for (const watched of this.config.watched) {
       const saved = this.data.watched[watched.text];
-      const current = saved?.id && offers.get(saved.id);
+      if (!saved?.id) {
+        continue;
+      }
+      const current = offers.get(saved.id);
       if (!current) {
+        // Not in this country's catalog (any more): on none of the platforms.
+        saved.platforms = [];
         continue;
       }
       const before = saved.platforms ?? [];
@@ -743,7 +753,7 @@ export class Monitor {
   async whereToWatch(fields = {}) {
     const empty = { found: 0, title: '', year: 0, available: 0, platforms: '', url: '' };
     const text = String(fields.title ?? '').trim();
-    if (!text) {
+    if (!text || !this.config) {
       return empty;
     }
     const { query, year } = parseWatched(text);

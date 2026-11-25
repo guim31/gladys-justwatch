@@ -121,7 +121,8 @@ hinzu, um eine Fassung zu wählen: `Dune (1984)`.
 - Die Integration bleibt ein leiser Besucher: eine Anfrage nach der anderen, eine Sekunde Abstand, ein ehrlicher
   User-Agent und ein Cache. Bei jedem Abruf: zwei bis vier Anfragen pro Liste (heute und gestern), eine für alle
   beobachteten Titel; die fünf älteren Tage werden einmal am Tag gelesen, die Plattformen des Landes einmal am Tag,
-  jeder beobachtete Titel wird einmal gesucht.
+  jeder beobachtete Titel wird einmal gesucht. Der
+  allererste Abruf einer Liste liest ihre sieben Tage (etwa zehn Anfragen, etwa zehn Sekunden).
 - Titel, Jahre und Links gehören JustWatch und seinen Quellen. An JustWatch geht nichts außer dem Land, der Sprache,
   den Plattformen und den gesuchten Titeln.
 
