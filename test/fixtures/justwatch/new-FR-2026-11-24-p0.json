@@ -1,0 +1,1342 @@
+{
+  "data": {
+    "newTitles": {
+      "totalCount": 59,
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "NTk="
+      },
+      "edges": [
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1150069",
+            "content": {
+              "title": "Hunger Games : La Ballade du serpent et de l'oiseau chanteur",
+              "fullPath": "/fr/film/hunger-games-la-ballade-du-serpent-et-de-loiseau-chanteur",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss297253",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/from/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/fr/serie/from",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss55594",
+            "content": {
+              "title": "Saison 10",
+              "fullPath": "/fr/serie/the-x-files/saison-10",
+              "seasonNumber": 10
+            },
+            "show": {
+              "id": "ts20974",
+              "content": {
+                "title": "X-Files : Aux frontières du réel",
+                "fullPath": "/fr/serie/the-x-files",
+                "originalReleaseYear": 1993
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss395239",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/from/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/fr/serie/from",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss530462",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/love-in-disguise/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts501458",
+              "content": {
+                "title": "L'amour sous couverture",
+                "fullPath": "/fr/serie/love-in-disguise",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss557681",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/phony/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts365526",
+              "content": {
+                "title": "Phony",
+                "fullPath": "/fr/serie/phony",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss611444",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/a-lepreuve-du-diable/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts372801",
+              "content": {
+                "title": "À l'épreuve du diable",
+                "fullPath": "/fr/serie/a-lepreuve-du-diable",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss58857",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/one-punch-man/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts37539",
+              "content": {
+                "title": "One Punch Man",
+                "fullPath": "/fr/serie/one-punch-man",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss444567",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/from/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/fr/serie/from",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1873170",
+            "content": {
+              "title": "The Snare",
+              "fullPath": "/fr/film/the-snare",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss105385",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/one-punch-man/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts37539",
+              "content": {
+                "title": "One Punch Man",
+                "fullPath": "/fr/serie/one-punch-man",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss97400",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/karakuri-circus/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts84590",
+              "content": {
+                "title": "Karakuri Circus",
+                "fullPath": "/fr/serie/karakuri-circus",
+                "originalReleaseYear": 2018
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1243489",
+            "content": {
+              "title": "Jane",
+              "fullPath": "/fr/film/jane-2022",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3017198",
+            "content": {
+              "title": "Avec toi pour toujours",
+              "fullPath": "/fr/film/avec-toi-pour-toujours-2026",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm148335",
+            "content": {
+              "title": "Ninja Assassin",
+              "fullPath": "/fr/film/ninja-assassin",
+              "originalReleaseYear": 2009
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2893878",
+            "content": {
+              "title": "The Symphony of Dance",
+              "fullPath": "/fr/film/the-symphony-of-dance",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm232800",
+            "content": {
+              "title": "Annihilation",
+              "fullPath": "/fr/film/annihilation",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss308545",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/doc-martin-2011/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts299857",
+              "content": {
+                "title": "Doc Martin",
+                "fullPath": "/fr/serie/doc-martin-2011",
+                "originalReleaseYear": 2011
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm179734",
+            "content": {
+              "title": "World War Z",
+              "fullPath": "/fr/film/world-war-z",
+              "originalReleaseYear": 2013
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss7562",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1266673",
+            "content": {
+              "title": "Coup de foudre à l'hôtel de Noël",
+              "fullPath": "/fr/film/coup-de-foudre-a-lhotel-de-noel",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss61885",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/night-shift/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts20917",
+              "content": {
+                "title": "Night Shift",
+                "fullPath": "/fr/serie/the-night-shift",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss541610",
+            "content": {
+              "title": "Saison 34",
+              "fullPath": "/fr/serie/wwe-monday-night-raw/saison-34",
+              "seasonNumber": 34
+            },
+            "show": {
+              "id": "ts20976",
+              "content": {
+                "title": "WWE Monday Night RAW",
+                "fullPath": "/fr/serie/wwe-monday-night-raw",
+                "originalReleaseYear": 1993
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm183955",
+            "content": {
+              "title": "Nanny McPhee",
+              "fullPath": "/fr/film/nanny-mcphee",
+              "originalReleaseYear": 2005
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss25675",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/one-tree-hill/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts21749",
+              "content": {
+                "title": "Les Frères Scott",
+                "fullPath": "/fr/serie/one-tree-hill",
+                "originalReleaseYear": 2003
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1117277",
+            "content": {
+              "title": "Noël avec un prince",
+              "fullPath": "/fr/film/noel-avec-un-prince",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2988594",
+            "content": {
+              "title": "Le premier jour de printemps de Raiponce et Maximus",
+              "fullPath": "/fr/film/le-premier-jour-de-printemps-de-raiponce-et-maximus",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3038735",
+            "content": {
+              "title": "Nate Bargatze: Good For Nathan",
+              "fullPath": "/fr/film/nate-bargatze-good-for-nathan",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1437069",
+            "content": {
+              "title": "Fine Young Men",
+              "fullPath": "/fr/film/fine-young-men",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss7403",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss19176",
+            "content": {
+              "title": "Saison 4",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1372859",
+            "content": {
+              "title": "T.I.M.",
+              "fullPath": "/fr/film/t-i-m",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm178472",
+            "content": {
+              "title": "Stone Impact",
+              "fullPath": "/fr/film/stone-impact",
+              "originalReleaseYear": 2013
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss106490",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/dumbbell-combien-tu-peux-soulever/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts89551",
+              "content": {
+                "title": "Dumbbell : Combien tu peux soulever ?",
+                "fullPath": "/fr/serie/dumbbell-combien-tu-peux-soulever",
+                "originalReleaseYear": 2019
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss22404",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/night-shift/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts20917",
+              "content": {
+                "title": "Night Shift",
+                "fullPath": "/fr/serie/the-night-shift",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm96154",
+            "content": {
+              "title": "Nanny McPhee & le Big Bang",
+              "fullPath": "/fr/film/nanny-mcphee-et-le-big-bang",
+              "originalReleaseYear": 2010
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm936648",
+            "content": {
+              "title": "Un vœu d'amour pour Noël",
+              "fullPath": "/fr/film/un-voeu-damour-pour-noel",
+              "originalReleaseYear": 2020
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1117334",
+            "content": {
+              "title": "Recherche fiancé pour Noël",
+              "fullPath": "/fr/film/recherche-fiance-pour-noel",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1102671",
+            "content": {
+              "title": "Chain reaction",
+              "fullPath": "/fr/film/chain-reaction-2021",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss7711",
+            "content": {
+              "title": "Saison 6",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-6",
+              "seasonNumber": 6
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm130142",
+            "content": {
+              "title": "Traces de sang",
+              "fullPath": "/fr/film/traces-de-sang",
+              "originalReleaseYear": 1992
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm130659",
+            "content": {
+              "title": "Savage Island",
+              "fullPath": "/fr/film/savage-island",
+              "originalReleaseYear": 1985
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm308866",
+            "content": {
+              "title": "City of Ghosts",
+              "fullPath": "/fr/film/city-of-ghosts",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss24782",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/night-shift/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts20917",
+              "content": {
+                "title": "Night Shift",
+                "fullPath": "/fr/serie/the-night-shift",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss71554",
+            "content": {
+              "title": "Saison 04",
+              "fullPath": "/fr/serie/night-shift/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts20917",
+              "content": {
+                "title": "Night Shift",
+                "fullPath": "/fr/serie/the-night-shift",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1388331",
+            "content": {
+              "title": "Les couleurs de Noël",
+              "fullPath": "/fr/film/les-couleurs-de-noel",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss81186",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/virage-nord/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts74745",
+              "content": {
+                "title": "Virage Nord",
+                "fullPath": "/fr/serie/virage-nord",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss25670",
+            "content": {
+              "title": "Saison 7",
+              "fullPath": "/fr/serie/one-tree-hill/saison-7",
+              "seasonNumber": 7
+            },
+            "show": {
+              "id": "ts21749",
+              "content": {
+                "title": "Les Frères Scott",
+                "fullPath": "/fr/serie/one-tree-hill",
+                "originalReleaseYear": 2003
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss7758",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss7717",
+            "content": {
+              "title": "Saison 5",
+              "fullPath": "/fr/serie/drop-dead-diva/saison-5",
+              "seasonNumber": 5
+            },
+            "show": {
+              "id": "ts8112",
+              "content": {
+                "title": "Drop Dead Diva",
+                "fullPath": "/fr/serie/drop-dead-diva",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm91952",
+            "content": {
+              "title": "Lolita malgré moi",
+              "fullPath": "/fr/film/lolita-malgre-moi",
+              "originalReleaseYear": 2004
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm28346",
+            "content": {
+              "title": "Tonnerre sous les tropiques",
+              "fullPath": "/fr/film/tonnerre-sous-les-tropiques",
+              "originalReleaseYear": 2008
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm353783",
+            "content": {
+              "title": "Un Noël traditionnel",
+              "fullPath": "/fr/film/un-noel-traditionnel",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1538739",
+            "content": {
+              "title": "Monster Island",
+              "fullPath": "/fr/film/monster-island-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm631194",
+            "content": {
+              "title": "The Hunting of the Snark",
+              "fullPath": "/fr/film/the-hunting-of-the-snark",
+              "originalReleaseYear": 2015
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm433975",
+            "content": {
+              "title": "Noël à Crystal Falls",
+              "fullPath": "/fr/film/noel-a-crystal-falls",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1379831",
+            "content": {
+              "title": "Rose's War",
+              "fullPath": "/fr/film/baltimore-2024",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1860456",
+            "content": {
+              "title": "Voyage dans le temps pour Noël",
+              "fullPath": "/fr/film/voyage-dans-le-temps-pour-noel",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1132088",
+            "content": {
+              "title": "Il faut sauver la maison sur la plage",
+              "fullPath": "/fr/film/il-faut-sauver-la-maison-sur-la-plage",
+              "originalReleaseYear": 2021
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2297 @@
+{
+  "data": {
+    "newTitles": {
+      "totalCount": 153,
+      "pageInfo": {
+        "hasNextPage": true,
+        "endCursor": "MTAw"
+      },
+      "edges": [
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss325167",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/selenkay/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts316203",
+              "content": {
+                "title": "Selenkay",
+                "fullPath": "/de/Serie/selenkay",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss55594",
+            "content": {
+              "title": "Staffel 10",
+              "fullPath": "/de/Serie/Akte-X-Die-unheimlichen-Faelle-des-FBI/Staffel-10",
+              "seasonNumber": 10
+            },
+            "show": {
+              "id": "ts20974",
+              "content": {
+                "title": "Akte X: Die unheimlichen Fälle des FBI",
+                "fullPath": "/de/Serie/Akte-X-Die-unheimlichen-Faelle-des-FBI",
+                "originalReleaseYear": 1993
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss568573",
+            "content": {
+              "title": "Sierra El Diablo",
+              "fullPath": "/de/Serie/7-vs-wild/Staffel-6",
+              "seasonNumber": 6
+            },
+            "show": {
+              "id": "ts319908",
+              "content": {
+                "title": "7 vs. Wild",
+                "fullPath": "/de/Serie/7-vs-wild",
+                "originalReleaseYear": 2021
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss444567",
+            "content": {
+              "title": "Staffel 3",
+              "fullPath": "/de/Serie/From/Staffel-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/de/Serie/From",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss297253",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/From/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/de/Serie/From",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss336005",
+            "content": {
+              "title": "Die verrückte Geschichte der Welt, Teil II",
+              "fullPath": "/de/Serie/history-of-the-world-part-ii/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts316580",
+              "content": {
+                "title": "History of the World: Part II",
+                "fullPath": "/de/Serie/history-of-the-world-part-ii",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss365048",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/australia-die-serie/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts357586",
+              "content": {
+                "title": "Australia – Die Serie",
+                "fullPath": "/de/Serie/australia-die-serie",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss70749",
+            "content": {
+              "title": "Staffel 5",
+              "fullPath": "/de/Serie/Ripper-Street/Staffel-5",
+              "seasonNumber": 5
+            },
+            "show": {
+              "id": "ts20491",
+              "content": {
+                "title": "Ripper Street",
+                "fullPath": "/de/Serie/Ripper-Street",
+                "originalReleaseYear": 2012
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss337401",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/rennervations/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts328575",
+              "content": {
+                "title": "Rennervations",
+                "fullPath": "/de/Serie/rennervations",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss611444",
+            "content": {
+              "title": "Staffel 3",
+              "fullPath": "/de/Serie/the-devils-plan/Staffel-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts372801",
+              "content": {
+                "title": "The Devil's Plan",
+                "fullPath": "/de/Serie/the-devils-plan",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1612809",
+            "content": {
+              "title": "The Snare",
+              "fullPath": "/de/Film/the-snare-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss395239",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/From/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts287292",
+              "content": {
+                "title": "From",
+                "fullPath": "/de/Serie/From",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss323647",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/The-Wonder-Years/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts321894",
+              "content": {
+                "title": "Wunderbare Jahre",
+                "fullPath": "/de/Serie/The-Wonder-Years",
+                "originalReleaseYear": 2021
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1948203",
+            "content": {
+              "title": "Mavka - Die wahre Legende",
+              "fullPath": "/de/Film/mavka-the-true-myth",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss70139",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/MECH-X4/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts52891",
+              "content": {
+                "title": "MECH-X4",
+                "fullPath": "/de/Serie/MECH-X4",
+                "originalReleaseYear": 2016
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm211554",
+            "content": {
+              "title": "Beyond Skyline",
+              "fullPath": "/de/Film/Beyond-Skyline",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1121098",
+            "content": {
+              "title": "Will You Marry",
+              "fullPath": "/de/Film/Will-You-Marry",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss356537",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/nothing/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts349995",
+              "content": {
+                "title": "Nothing",
+                "fullPath": "/de/Serie/nothing",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss335724",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Kindred/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts315075",
+              "content": {
+                "title": "Kindred: Verbunden",
+                "fullPath": "/de/Serie/Kindred",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss557681",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/phony/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts365526",
+              "content": {
+                "title": "Phony",
+                "fullPath": "/de/Serie/phony",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss250790",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Zenimation/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts237729",
+              "content": {
+                "title": "Zenimation",
+                "fullPath": "/de/Serie/Zenimation",
+                "originalReleaseYear": 2020
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss326540",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/This-Fool/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts292464",
+              "content": {
+                "title": "This Fool",
+                "fullPath": "/de/Serie/This-Fool",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss530462",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/love-in-disguise/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts501458",
+              "content": {
+                "title": "Undercover-Liebe",
+                "fullPath": "/de/Serie/love-in-disguise",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2008531",
+            "content": {
+              "title": "One Last Order",
+              "fullPath": "/de/Film/one-last-order",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss357751",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Los-Montaner/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts292987",
+              "content": {
+                "title": "The Montaners",
+                "fullPath": "/de/Serie/Los-Montaner",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss408722",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/primal-survivor-over-the-andes/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts397146",
+              "content": {
+                "title": "Extreme Survival mit Hazen Audel: Über die Anden",
+                "fullPath": "/de/Serie/primal-survivor-over-the-andes",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss398232",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/The-Wonder-Years/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts321894",
+              "content": {
+                "title": "Wunderbare Jahre",
+                "fullPath": "/de/Serie/The-Wonder-Years",
+                "originalReleaseYear": 2021
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss348874",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Sketchbook/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts342882",
+              "content": {
+                "title": "Sketchbook",
+                "fullPath": "/de/Serie/Sketchbook",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1919066",
+            "content": {
+              "title": "Kevin Costner präsentiert – Das erste Weihnachten",
+              "fullPath": "/de/Film/kevin-costner-presents-the-first-christmas",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss58857",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/One-Punch-Man/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts37539",
+              "content": {
+                "title": "One Punch Man",
+                "fullPath": "/de/Serie/One-Punch-Man",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss507043",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/diddy-on-trial-as-it-happened/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts481198",
+              "content": {
+                "title": "Diddy on Trial: As It Happened",
+                "fullPath": "/de/Serie/diddy-on-trial-as-it-happened",
+                "originalReleaseYear": 2025
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3022554",
+            "content": {
+              "title": "Rob Lowe: The Outsider",
+              "fullPath": "/de/Film/rob-lowe-the-outsider",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1904",
+            "content": {
+              "title": "Avatar 2: The Way of Water",
+              "fullPath": "/de/Film/Avatar-2",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1974128",
+            "content": {
+              "title": "Deep",
+              "fullPath": "/de/Film/deep-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1391563",
+            "content": {
+              "title": "Haunted Mansion: Enter If You Dare",
+              "fullPath": "/de/Film/haunted-mansion-enter-if-you-dare",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss97400",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/karakurisakasu/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts84590",
+              "content": {
+                "title": "Karakuri Circus",
+                "fullPath": "/de/Serie/karakurisakasu",
+                "originalReleaseYear": 2018
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss105385",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/One-Punch-Man/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts37539",
+              "content": {
+                "title": "One Punch Man",
+                "fullPath": "/de/Serie/One-Punch-Man",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1077151",
+            "content": {
+              "title": "Happier Than Ever: Ein Liebesbrief an Los Angeles",
+              "fullPath": "/de/Film/Happier-Than-Ever-Ein-Liebesbrief-an-Los-Angeles",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss83827",
+            "content": {
+              "title": "Staffel 5",
+              "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet/Staffel-5",
+              "seasonNumber": 5
+            },
+            "show": {
+              "id": "ts38704",
+              "content": {
+                "title": "Die Yukon-Tierärztin",
+                "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1285156",
+            "content": {
+              "title": "Avatar: The Deep Dive - A Special Edition of 20/20",
+              "fullPath": "/de/Film/avatar-the-deep-dive-a-special-edition-of-20-20",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss188937",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/Secrets-of-the-Zoo/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts88128",
+              "content": {
+                "title": "Zoogeflüster",
+                "fullPath": "/de/Serie/Secrets-of-the-Zoo",
+                "originalReleaseYear": 2018
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss389532",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/the-crossover/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts378843",
+              "content": {
+                "title": "The Crossover",
+                "fullPath": "/de/Serie/the-crossover",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss381817",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/This-Fool/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts292464",
+              "content": {
+                "title": "This Fool",
+                "fullPath": "/de/Serie/This-Fool",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm141309",
+            "content": {
+              "title": "Skyrunners",
+              "fullPath": "/de/Film/Skyrunners",
+              "originalReleaseYear": 2009
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1609202",
+            "content": {
+              "title": "Meet the Pickles: Das Making of von \"Win or Lose\"",
+              "fullPath": "/de/Film/meet-the-pickles-das-making-of-von-win-or-lose",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss509206",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/born-to-be-viral-the-real-lives-of-kidfluencers/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts483655",
+              "content": {
+                "title": "Born to Be Viral: The Real Lives of Kidfluencers",
+                "fullPath": "/de/Serie/born-to-be-viral-the-real-lives-of-kidfluencers",
+                "originalReleaseYear": 2025
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm827478",
+            "content": {
+              "title": "Ein Tag bei Disney",
+              "fullPath": "/de/Film/One-Day-at-Disney",
+              "originalReleaseYear": 2019
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss468098",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/social-studies/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts451160",
+              "content": {
+                "title": "Social Studies",
+                "fullPath": "/de/Serie/social-studies",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2893878",
+            "content": {
+              "title": "The Symphony of Dance",
+              "fullPath": "/de/Film/the-symphony-of-dance",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1854103",
+            "content": {
+              "title": "A Very Jonas Christmas Movie",
+              "fullPath": "/de/Film/a-very-jonas-christmas-movie",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss412526",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/royal-rules-of-ohio/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts384746",
+              "content": {
+                "title": "Royal Rules of Ohio",
+                "fullPath": "/de/Serie/royal-rules-of-ohio",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3038735",
+            "content": {
+              "title": "Nate Bargatze: Good For Nathan",
+              "fullPath": "/de/Film/nate-bargatze-good-for-nathan",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm813036",
+            "content": {
+              "title": "La vida era eso",
+              "fullPath": "/de/Film/La-vida-era-eso",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1386605",
+            "content": {
+              "title": "The Mill",
+              "fullPath": "/de/Film/the-mill-2023",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss496522",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/playback-together-we-are-one/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts472537",
+              "content": {
+                "title": "Playback: Together We Are One",
+                "fullPath": "/de/Serie/playback-together-we-are-one",
+                "originalReleaseYear": 2025
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1250558",
+            "content": {
+              "title": "God Forbid",
+              "fullPath": "/de/Film/God-Forbid-The-Sex-Scandal-That-Brought-Down-a-Dynasty",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss234604",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Short-Circuit/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts224501",
+              "content": {
+                "title": "Kurzschluss",
+                "fullPath": "/de/Serie/Short-Circuit",
+                "originalReleaseYear": 2020
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss291477",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/Zenimation/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts237729",
+              "content": {
+                "title": "Zenimation",
+                "fullPath": "/de/Serie/Zenimation",
+                "originalReleaseYear": 2020
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1537412",
+            "content": {
+              "title": "Carved",
+              "fullPath": "/de/Film/carved",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1279552",
+            "content": {
+              "title": "Tini: Liebe und Lieder",
+              "fullPath": "/de/Film/just-love-and-a-thousand-songs",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1868275",
+            "content": {
+              "title": "Das Herz sehnt sich danach, zurückzukehren.",
+              "fullPath": "/de/Film/das-herz-sehnt-sich-danach-zurueckzukehren",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1251373",
+            "content": {
+              "title": "The Paloni Show! Halloween Special!",
+              "fullPath": "/de/Film/The-Paloni-Show-Halloween-Special",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1533060",
+            "content": {
+              "title": "Mr. Crocket",
+              "fullPath": "/de/Film/mr-crocket",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1458666",
+            "content": {
+              "title": "Prom Dates",
+              "fullPath": "/de/Film/prom-dates",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss66691",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts38704",
+              "content": {
+                "title": "Die Yukon-Tierärztin",
+                "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1934241",
+            "content": {
+              "title": "Capturing Pandora | Inside Pandora's Box | Avatar: The Way of Water",
+              "fullPath": "/de/Film/capturing-pandora-inside-pandoras-box-avatar-the-way-of-water",
+              "originalReleaseYear": 2022
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss96799",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Bless-the-Harts/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts84198",
+              "content": {
+                "title": "Bless the Harts",
+                "fullPath": "/de/Serie/Bless-the-Harts",
+                "originalReleaseYear": 2019
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1127595",
+            "content": {
+              "title": "Pixar 2021 Disney+ Day Special",
+              "fullPath": "/de/Film/Pixar-2021-Disney-Day-Special",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss267452",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Meet-the-Chimps/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts254529",
+              "content": {
+                "title": "Triff die Schimpansen",
+                "fullPath": "/de/Serie/Meet-the-Chimps",
+                "originalReleaseYear": 2020
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm411403",
+            "content": {
+              "title": "Expedition ins Okavangodelta",
+              "fullPath": "/de/Film/Into-the-Okavango",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss505080",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/not-her-first-rodeo/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts479498",
+              "content": {
+                "title": "Not Her First Rodeo",
+                "fullPath": "/de/Serie/not-her-first-rodeo",
+                "originalReleaseYear": 2025
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss364563",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Running-Wild-with-Bear-Grylls-The-Challenge/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts357281",
+              "content": {
+                "title": "Bear Grylls: Stars am Limit - Die Challenge",
+                "fullPath": "/de/Serie/Running-Wild-with-Bear-Grylls-The-Challenge",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss408724",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/primal-survivor-escape-the-amazon/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts397148",
+              "content": {
+                "title": "Primal Survivor: Escape the Amazon",
+                "fullPath": "/de/Serie/primal-survivor-escape-the-amazon",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1096804",
+            "content": {
+              "title": "Vermisst in den Highlands",
+              "fullPath": "/de/Film/My-Son-2021",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss65560",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/Kirby-Buckets/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts43070",
+              "content": {
+                "title": "Kirby Buckets Ultradimensional",
+                "fullPath": "/de/Serie/Kirby-Buckets",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss392877",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/Turning-the-Tables-with-Robin-Roberts/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts288962",
+              "content": {
+                "title": "Mach den Unterschied mit Robin Roberts",
+                "fullPath": "/de/Serie/Turning-the-Tables-with-Robin-Roberts",
+                "originalReleaseYear": 2021
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1432644",
+            "content": {
+              "title": "Sex",
+              "fullPath": "/de/Film/sex-2024",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm163867",
+            "content": {
+              "title": "Kim Possible - Invasion der Roboter",
+              "fullPath": "/de/Film/Kim-Possible-Invasion-der-Roboter",
+              "originalReleaseYear": 2005
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm245698",
+            "content": {
+              "title": "Dead Awake - Wenn du einschläfst bist du tot",
+              "fullPath": "/de/Film/Dead-Awake",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm108764",
+            "content": {
+              "title": "Der subtile Reiz der Sünde",
+              "fullPath": "/de/Film/der-subtile-reiz-der-suende",
+              "originalReleaseYear": 2010
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm173180",
+            "content": {
+              "title": "The Jacket",
+              "fullPath": "/de/Film/The-Jacket",
+              "originalReleaseYear": 2005
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm407510",
+            "content": {
+              "title": "Our House",
+              "fullPath": "/de/Film/Our-house-2018",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1486201",
+            "content": {
+              "title": "Mrs. Roosevelt und das Wunder von Earl's Diner",
+              "fullPath": "/de/Film/the-supremes-at-earls-all-you-can-eat",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss70237",
+            "content": {
+              "title": "Staffel 4",
+              "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet/Staffel-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts38704",
+              "content": {
+                "title": "Die Yukon-Tierärztin",
+                "fullPath": "/de/Serie/Dr-Oakley-Yukon-Vet",
+                "originalReleaseYear": 2014
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1515296",
+            "content": {
+              "title": "Was uns verbindet",
+              "fullPath": "/de/Film/the-ties-that-bind-us",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm23725",
+            "content": {
+              "title": "Die Farbe der Freundschaft",
+              "fullPath": "/de/Film/Die-Farbe-der-Feundschaft",
+              "originalReleaseYear": 2000
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3001250",
+            "content": {
+              "title": "Snowbody like you",
+              "fullPath": "/de/Film/snowbody-like-you",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1423575",
+            "content": {
+              "title": "PLEASE",
+              "fullPath": "/de/Film/please-2023",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm69103",
+            "content": {
+              "title": "Barbie - Die Prinzessin und der Popstar",
+              "fullPath": "/de/Film/Barbie-Die-Prinzessin-und-der-Popstar",
+              "originalReleaseYear": 2012
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss399726",
+            "content": {
+              "title": "Staffel 1",
+              "fullPath": "/de/Serie/murder-in-the-red-light/Staffel-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts385029",
+              "content": {
+                "title": "Der Suffolk Strangler - Serienmorde im Rotlichtmilieu",
+                "fullPath": "/de/Serie/murder-in-the-red-light",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1344119",
+            "content": {
+              "title": "Imagine Dragons Live in Vegas",
+              "fullPath": "/de/Film/imagine-dragons-live-in-vegas",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1432754",
+            "content": {
+              "title": "Oslo-Stories: Träume",
+              "fullPath": "/de/Film/drommer",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1363933",
+            "content": {
+              "title": "Explorer: Verschollen in der Arktis",
+              "fullPath": "/de/Film/explorer-lost-in-the-arctic",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1334265",
+            "content": {
+              "title": "Jagged Mind",
+              "fullPath": "/de/Film/jagged-mind",
+              "originalReleaseYear": 2023
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss237796",
+            "content": {
+              "title": "Staffel 2",
+              "fullPath": "/de/Serie/Bless-the-Harts/Staffel-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts84198",
+              "content": {
+                "title": "Bless the Harts",
+                "fullPath": "/de/Serie/Bless-the-Harts",
+                "originalReleaseYear": 2019
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1565965",
+            "content": {
+              "title": "Fatal Affair",
+              "fullPath": "/de/Film/fatal-affair-2024",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1429355",
+            "content": {
+              "title": "Die Reise eines Helden – Das Making-of zu Percy Jackson: Die Serie",
+              "fullPath": "/de/Film/a-heros-journey-the-making-of-percy-jackson-and-the-olympians",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1657679",
+            "content": {
+              "title": "Verdict: The Diddy Trial",
+              "fullPath": "/de/Film/verdict-the-diddy-trial",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 9,
+              "clearName": "Amazon Prime Video",
+              "shortName": "amp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1583401",
+            "content": {
+              "title": "Das tiefste Blau",
+              "fullPath": "/de/Film/o-ultimo-azul",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1002567",
+            "content": {
+              "title": "Sneakerella",
+              "fullPath": "/de/Film/Sneakerella",
+              "originalReleaseYear": 2022
+            }
+          }
+        }
+      ]
+    }
+  }
+}

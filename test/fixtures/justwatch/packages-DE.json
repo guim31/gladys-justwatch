@@ -1,0 +1,1147 @@
+{
+  "data": {
+    "packages": [
+      {
+        "packageId": 8,
+        "clearName": "Netflix",
+        "shortName": "nfx",
+        "technicalName": "netflix",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 9,
+        "clearName": "Amazon Prime Video",
+        "shortName": "amp",
+        "technicalName": "amazonprime",
+        "monetizationTypes": ["ADS", "BUY", "FLATRATE", "FREE", "RENT"]
+      },
+      {
+        "packageId": 350,
+        "clearName": "Apple TV",
+        "shortName": "atp",
+        "technicalName": "appletvplus",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 337,
+        "clearName": "Disney Plus",
+        "shortName": "dnp",
+        "technicalName": "disneyplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2285,
+        "clearName": "JustWatch TV Free",
+        "shortName": "jwt",
+        "technicalName": "justwatchtv",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 2,
+        "clearName": "Apple TV Store",
+        "shortName": "itu",
+        "technicalName": "itunes",
+        "monetizationTypes": ["BUY", "FLATRATE", "FREE", "RENT"]
+      },
+      {
+        "packageId": 283,
+        "clearName": "Crunchyroll",
+        "shortName": "cru",
+        "technicalName": "crunchyroll",
+        "monetizationTypes": ["ADS", "FLATRATE"]
+      },
+      {
+        "packageId": 10,
+        "clearName": "Amazon Video",
+        "shortName": "amz",
+        "technicalName": "amazon",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 2784,
+        "clearName": "JustWatch TV Store",
+        "shortName": "jst",
+        "technicalName": "justwatchtvstore",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 1851,
+        "clearName": "MLS on Apple TV",
+        "shortName": "mls",
+        "technicalName": "mlsseasonpass",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 531,
+        "clearName": "Paramount Plus",
+        "shortName": "pmp",
+        "technicalName": "paramountplus",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 2785,
+        "clearName": "JustWatch TV Plus",
+        "shortName": "jut",
+        "technicalName": "justwatchtvplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 703,
+        "clearName": "Sky Sport",
+        "shortName": "ssp",
+        "technicalName": "skysport",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 2541,
+        "clearName": "WOW Amazon Channel",
+        "shortName": "wls",
+        "technicalName": "amazonwow",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 304,
+        "clearName": "Joyn",
+        "shortName": "jyn",
+        "technicalName": "joynde",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 30,
+        "clearName": "WOW",
+        "shortName": "sko",
+        "technicalName": "skyticket",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 29,
+        "clearName": "Sky Go",
+        "shortName": "skg",
+        "technicalName": "skygo",
+        "monetizationTypes": ["FAST", "FLATRATE"]
+      },
+      {
+        "packageId": 178,
+        "clearName": "MagentaTV",
+        "shortName": "etv",
+        "technicalName": "entertaintv",
+        "monetizationTypes": ["BUY", "FLATRATE", "FREE", "RENT"]
+      },
+      {
+        "packageId": 20,
+        "clearName": "maxdome Store",
+        "shortName": "mds",
+        "technicalName": "maxdomestore",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 2750,
+        "clearName": "RTL+",
+        "shortName": "rps",
+        "technicalName": "rtlplus",
+        "monetizationTypes": ["ADS", "FLATRATE"]
+      },
+      {
+        "packageId": 130,
+        "clearName": "Sky Store",
+        "shortName": "sks",
+        "technicalName": "skystore",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 2578,
+        "clearName": "RTL+ Max Amazon Channel",
+        "shortName": "rlm",
+        "technicalName": "amazonrtl",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 35,
+        "clearName": "Rakuten TV",
+        "shortName": "wki",
+        "technicalName": "wuaki",
+        "monetizationTypes": ["ADS", "BUY", "RENT"]
+      },
+      {
+        "packageId": 133,
+        "clearName": "Videobuster",
+        "shortName": "vdb",
+        "technicalName": "videobuster",
+        "monetizationTypes": ["RENT"]
+      },
+      {
+        "packageId": 188,
+        "clearName": "YouTube Premium",
+        "shortName": "ytr",
+        "technicalName": "youtubered",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 223,
+        "clearName": "Hayu",
+        "shortName": "hay",
+        "technicalName": "hayu",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1720,
+        "clearName": "F1TV Pro",
+        "shortName": "f1t",
+        "technicalName": "f1tv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 219,
+        "clearName": "ARD Mediathek",
+        "shortName": "dem",
+        "technicalName": "daserstemediathek",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 11,
+        "clearName": "MUBI",
+        "shortName": "mbi",
+        "technicalName": "mubi",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 28,
+        "clearName": "Netzkino",
+        "shortName": "ntz",
+        "technicalName": "netzkino",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 175,
+        "clearName": "Netflix Kids",
+        "shortName": "nfk",
+        "technicalName": "netflixkids",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 100,
+        "clearName": "GuideDoc",
+        "shortName": "gdc",
+        "technicalName": "guidedoc",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 344,
+        "clearName": "Rakuten Viki",
+        "shortName": "vik",
+        "technicalName": "viki",
+        "monetizationTypes": ["ADS", "FLATRATE", "RENT"]
+      },
+      {
+        "packageId": 421,
+        "clearName": "Joyn Plus",
+        "shortName": "jpl",
+        "technicalName": "joyndeplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 190,
+        "clearName": "Curiosity Stream",
+        "shortName": "cts",
+        "technicalName": "curiositystream",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 479,
+        "clearName": "Home of Horror",
+        "shortName": "hoh",
+        "technicalName": "homeofhorror",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 475,
+        "clearName": "DOCSVILLE",
+        "shortName": "dsv",
+        "technicalName": "docsville",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 480,
+        "clearName": "Filmtastic",
+        "shortName": "ftc",
+        "technicalName": "filmtastic",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 481,
+        "clearName": "ArthouseCNMA",
+        "shortName": "cnm",
+        "technicalName": "arthousecnma",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 522,
+        "clearName": "Popcorntimes",
+        "shortName": "pcs",
+        "technicalName": "popcorntimes",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 234,
+        "clearName": "Arte",
+        "shortName": "art",
+        "technicalName": "arte",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 498,
+        "clearName": "South Park",
+        "shortName": "spk",
+        "technicalName": "southpark",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 537,
+        "clearName": "ZDF",
+        "shortName": "zdf",
+        "technicalName": "zdf",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 538,
+        "clearName": "Plex",
+        "shortName": "plx",
+        "technicalName": "plex",
+        "monetizationTypes": ["ADS", "RENT"]
+      },
+      {
+        "packageId": 546,
+        "clearName": "WOW Presents Plus",
+        "shortName": "wow",
+        "technicalName": "wowpresentsplus",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 542,
+        "clearName": "filmfriend",
+        "shortName": "ffr",
+        "technicalName": "filmfriend",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 551,
+        "clearName": "Magellan TV",
+        "shortName": "mgl",
+        "technicalName": "magellantv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 554,
+        "clearName": "BroadwayHD",
+        "shortName": "bhd",
+        "technicalName": "broadwayhd",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 559,
+        "clearName": "Filmzie",
+        "shortName": "fmz",
+        "technicalName": "filmzie",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 444,
+        "clearName": "Dekkoo",
+        "shortName": "dkk",
+        "technicalName": "dekkoo",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 567,
+        "clearName": "True Story",
+        "shortName": "trs",
+        "technicalName": "truestory",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 315,
+        "clearName": "Hoichoi",
+        "shortName": "hoc",
+        "technicalName": "hoichoi",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 300,
+        "clearName": "Pluto TV",
+        "shortName": "ptv",
+        "technicalName": "plutotv",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 677,
+        "clearName": "Eventive",
+        "shortName": "eve",
+        "technicalName": "eventive",
+        "monetizationTypes": ["FREE", "RENT"]
+      },
+      {
+        "packageId": 692,
+        "clearName": "Cultpix",
+        "shortName": "ctx",
+        "technicalName": "cultpix",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1721,
+        "clearName": "Sportschau",
+        "shortName": "sps",
+        "technicalName": "sportschau",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1722,
+        "clearName": "AVA VOBB",
+        "shortName": "avb",
+        "technicalName": "avaberlin",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 1723,
+        "clearName": "AVA HBZ",
+        "shortName": "avh",
+        "technicalName": "avanrw",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 1748,
+        "clearName": "Sat 1",
+        "shortName": "sat",
+        "technicalName": "sat1",
+        "monetizationTypes": ["ADS", "FREE"]
+      },
+      {
+        "packageId": 1749,
+        "clearName": "Ran",
+        "shortName": "ran",
+        "technicalName": "ran",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 699,
+        "clearName": "Sport1",
+        "shortName": "sp1",
+        "technicalName": "sportone",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1758,
+        "clearName": "Sportdigital",
+        "shortName": "sdg",
+        "technicalName": "sportdigital",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1762,
+        "clearName": "NFL Game Pass",
+        "shortName": "ngp",
+        "technicalName": "nflgamepass",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1761,
+        "clearName": "NBA League Pass",
+        "shortName": "nlp",
+        "technicalName": "nbaleaguepass",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1785,
+        "clearName": "Twitch",
+        "shortName": "twc",
+        "technicalName": "twitch",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 309,
+        "clearName": "Sun Nxt",
+        "shortName": "snx",
+        "technicalName": "sunnxt",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1774,
+        "clearName": "Tennis Channel",
+        "shortName": "ten",
+        "technicalName": "tennischannel",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1796,
+        "clearName": "Netflix Standard with Ads",
+        "shortName": "nfa",
+        "technicalName": "netflixbasicwithads",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1823,
+        "clearName": "URC TV",
+        "shortName": "urc",
+        "technicalName": "urctv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1829,
+        "clearName": "Behind the Tree",
+        "shortName": "bht",
+        "technicalName": "behindthetree",
+        "monetizationTypes": ["RENT"]
+      },
+      {
+        "packageId": 1756,
+        "clearName": "filmingo",
+        "shortName": "fgo",
+        "technicalName": "filmingo",
+        "monetizationTypes": ["FLATRATE", "RENT"]
+      },
+      {
+        "packageId": 1789,
+        "clearName": "YouTube Sports",
+        "shortName": "yts",
+        "technicalName": "youtubesports",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 524,
+        "clearName": "Discovery+",
+        "shortName": "dpe",
+        "technicalName": "discoverypluseurope",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1837,
+        "clearName": "DAZN Amazon Channel",
+        "shortName": "dza",
+        "technicalName": "amazondazn",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1844,
+        "clearName": "More Than Sports TV",
+        "shortName": "mtt",
+        "technicalName": "morethansportstv",
+        "monetizationTypes": ["ADS", "FREE"]
+      },
+      {
+        "packageId": 1820,
+        "clearName": "OneFootball",
+        "shortName": "ofb",
+        "technicalName": "onefootball",
+        "monetizationTypes": ["ADS", "BUY", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1853,
+        "clearName": "Paramount Plus Apple TV channel",
+        "shortName": "ppa",
+        "technicalName": "appletvparamountplus",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1863,
+        "clearName": "Tennis TV",
+        "shortName": "tnn",
+        "technicalName": "tennistv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1876,
+        "clearName": "Sport1+",
+        "shortName": "s1p",
+        "technicalName": "sportoneplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1902,
+        "clearName": "ARD Plus",
+        "shortName": "ard",
+        "technicalName": "ardplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1915,
+        "clearName": "NWSL+",
+        "shortName": "nws",
+        "technicalName": "nwslsoccercom",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1923,
+        "clearName": "ProSieben MAXX",
+        "shortName": "p7m",
+        "technicalName": "prosiebenmaxx",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 1925,
+        "clearName": "SPORTBILD",
+        "shortName": "spb",
+        "technicalName": "sportbildde",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 1932,
+        "clearName": "Sport1 Extra",
+        "shortName": "s1x",
+        "technicalName": "sportoneextra",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1941,
+        "clearName": "Sporteurope.TV",
+        "shortName": "spd",
+        "technicalName": "sportdeutschland",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1942,
+        "clearName": "DAZN NFL Game Pass",
+        "shortName": "dnf",
+        "technicalName": "daznnflgp",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1950,
+        "clearName": "Dyn",
+        "shortName": "dyn",
+        "technicalName": "dynmedia",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1954,
+        "clearName": "ServusTV On",
+        "shortName": "son",
+        "technicalName": "servustvon",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 1843,
+        "clearName": "NHL TV",
+        "shortName": "nhl",
+        "technicalName": "nhltv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1822,
+        "clearName": "PRTV",
+        "shortName": "prt",
+        "technicalName": "prtv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1715,
+        "clearName": "Shahid VIP",
+        "shortName": "sha",
+        "technicalName": "shahidvip",
+        "monetizationTypes": ["ADS", "FLATRATE"]
+      },
+      {
+        "packageId": 1982,
+        "clearName": "NFL GamePass on YouTube",
+        "shortName": "ytn",
+        "technicalName": "nflgpyoutube",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1987,
+        "clearName": "EPCR TV",
+        "shortName": "erc",
+        "technicalName": "epcrtv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1934,
+        "clearName": "FIFA+",
+        "shortName": "fif",
+        "technicalName": "fifaplus",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 1994,
+        "clearName": "TELE 5",
+        "shortName": "tle",
+        "technicalName": "tele5",
+        "monetizationTypes": ["FAST", "FREE"]
+      },
+      {
+        "packageId": 1979,
+        "clearName": "Fanatiz",
+        "shortName": "ftz",
+        "technicalName": "fanatiz",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2035,
+        "clearName": "Crime+Investigation Play Apple TV Channel",
+        "shortName": "cip",
+        "technicalName": "appletvciplay",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2037,
+        "clearName": "ARD Plus Apple TV channel",
+        "shortName": "ara",
+        "technicalName": "appletvardplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2038,
+        "clearName": "Arthaus+ Apple TV channel",
+        "shortName": "ata",
+        "technicalName": "appletvarthaus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1871,
+        "clearName": "BTV",
+        "shortName": "ben",
+        "technicalName": "benficatv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2081,
+        "clearName": "KiKA",
+        "shortName": "kka",
+        "technicalName": "kika",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 1769,
+        "clearName": "MLB TV",
+        "shortName": "mlb",
+        "technicalName": "mlbtv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2103,
+        "clearName": "Funk",
+        "shortName": "fnk",
+        "technicalName": "funk",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 2125,
+        "clearName": "Cineplex DE",
+        "shortName": "cde",
+        "technicalName": "cineplexde",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2131,
+        "clearName": "Cinestar",
+        "shortName": "cst",
+        "technicalName": "cinestar",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2136,
+        "clearName": "UCI Kino",
+        "shortName": "uck",
+        "technicalName": "ucikinowelt",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2138,
+        "clearName": "Filmspiegel",
+        "shortName": "fsl",
+        "technicalName": "filmspiegel",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2190,
+        "clearName": "Plaion Pictures",
+        "shortName": "pps",
+        "technicalName": "plaionpictures",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2191,
+        "clearName": "DF1",
+        "shortName": "df1",
+        "technicalName": "df1",
+        "monetizationTypes": ["ADS", "FREE"]
+      },
+      {
+        "packageId": 2201,
+        "clearName": "Toggo",
+        "shortName": "tog",
+        "technicalName": "toggo",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 2206,
+        "clearName": "Kixi",
+        "shortName": "kix",
+        "technicalName": "kixi",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2207,
+        "clearName": "Verleihshop",
+        "shortName": "ver",
+        "technicalName": "verleihshop",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 2209,
+        "clearName": "Freenet meinVOD",
+        "shortName": "fmd",
+        "technicalName": "freenet",
+        "monetizationTypes": ["BUY", "FLATRATE", "RENT"]
+      },
+      {
+        "packageId": 2211,
+        "clearName": "3sat",
+        "shortName": "3st",
+        "technicalName": "threesatde",
+        "monetizationTypes": ["FAST", "FREE"]
+      },
+      {
+        "packageId": 2220,
+        "clearName": "Akibapass",
+        "shortName": "akp",
+        "technicalName": "akibapass",
+        "monetizationTypes": ["BUY", "RENT"]
+      },
+      {
+        "packageId": 187,
+        "clearName": "Paramount Pictures",
+        "shortName": "prm",
+        "technicalName": "paramountpictures",
+        "monetizationTypes": [""]
+      },
+      {
+        "packageId": 695,
+        "clearName": "DAZN",
+        "shortName": "dzn",
+        "technicalName": "dazn",
+        "monetizationTypes": ["ADS", "FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 2391,
+        "clearName": "SPORTDIGITAL+",
+        "shortName": "sdp",
+        "technicalName": "sportdigitalplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2412,
+        "clearName": "Magenta TV+",
+        "shortName": "mag",
+        "technicalName": "magentatvplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2330,
+        "clearName": "Jolt Film",
+        "shortName": "jfl",
+        "technicalName": "joltfilm",
+        "monetizationTypes": ["RENT"]
+      },
+      {
+        "packageId": 2478,
+        "clearName": "FOUND TV",
+        "shortName": "fod",
+        "technicalName": "foundtv",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 2481,
+        "clearName": "CineMix+ Amazon Channel",
+        "shortName": "cmp",
+        "technicalName": "amazoncinemixplus",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2526,
+        "clearName": "Made in Europe Amazon Channel",
+        "shortName": "mie",
+        "technicalName": "amazonmadeineurope",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2532,
+        "clearName": "Mosaik Amazon Channel",
+        "shortName": "mac",
+        "technicalName": "amazonmosaik",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2551,
+        "clearName": "Thalia",
+        "shortName": "thl",
+        "technicalName": "thalia",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2550,
+        "clearName": "JPC",
+        "shortName": "jpc",
+        "technicalName": "jpc",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2555,
+        "clearName": "Bloodstream",
+        "shortName": "bsm",
+        "technicalName": "bloodstream",
+        "monetizationTypes": ["BUY", "FLATRATE", "FREE", "RENT"]
+      },
+      {
+        "packageId": 2559,
+        "clearName": "Buecher",
+        "shortName": "bue",
+        "technicalName": "buecher",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2564,
+        "clearName": "Hugendubel",
+        "shortName": "hgl",
+        "technicalName": "hugendubel",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2565,
+        "clearName": "MovieMe",
+        "shortName": "mvm",
+        "technicalName": "movieme",
+        "monetizationTypes": ["RENT"]
+      },
+      {
+        "packageId": 2566,
+        "clearName": "Queens club Amazon Channel",
+        "shortName": "qac",
+        "technicalName": "amazonqueensclub",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1952,
+        "clearName": "EuroLeague TV",
+        "shortName": "elt",
+        "technicalName": "euroleaguetv",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 235,
+        "clearName": "YouTube Free",
+        "shortName": "yfr",
+        "technicalName": "youtubefree",
+        "monetizationTypes": ["ADS"]
+      },
+      {
+        "packageId": 2575,
+        "clearName": "Medimops",
+        "shortName": "mps",
+        "technicalName": "medimops",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2572,
+        "clearName": "buy ZOXS",
+        "shortName": "bzs",
+        "technicalName": "buyzoxs",
+        "monetizationTypes": ["BUY"]
+      },
+      {
+        "packageId": 2603,
+        "clearName": "KableOne",
+        "shortName": "kbo",
+        "technicalName": "kableone",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2620,
+        "clearName": "CaixaForum+",
+        "shortName": "cfp",
+        "technicalName": "caixaforumplus",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 2599,
+        "clearName": "ZDF Schatzkiste Amazon channel",
+        "shortName": "zsh",
+        "technicalName": "amazonzdfschatzkiste",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2660,
+        "clearName": "Wow Fiction Amazon Channel",
+        "shortName": "wfa",
+        "technicalName": "amazonwowfiction",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 1899,
+        "clearName": "HBO Max",
+        "shortName": "mxx",
+        "technicalName": "max",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2623,
+        "clearName": "Artiflix",
+        "shortName": "afx",
+        "technicalName": "artflix",
+        "monetizationTypes": ["FLATRATE", "FREE"]
+      },
+      {
+        "packageId": 2681,
+        "clearName": "Amasia+ Amazon Channel",
+        "shortName": "aml",
+        "technicalName": "amazonamasia",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2685,
+        "clearName": "Artify",
+        "shortName": "atf",
+        "technicalName": "artify",
+        "monetizationTypes": ["FLATRATE", "RENT"]
+      },
+      {
+        "packageId": 2692,
+        "clearName": "Die Biene Maja & Friends",
+        "shortName": "die",
+        "technicalName": "amazondiebiene",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2721,
+        "clearName": "Das Erste live",
+        "shortName": "del",
+        "technicalName": "ardfast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2722,
+        "clearName": "RTL Plus Live",
+        "shortName": "rpl",
+        "technicalName": "rtlplusfast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2728,
+        "clearName": "ZDF Live",
+        "shortName": "zdl",
+        "technicalName": "zdffast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2740,
+        "clearName": "Arte Live",
+        "shortName": "are",
+        "technicalName": "artefast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2741,
+        "clearName": "Sky Live",
+        "shortName": "skl",
+        "technicalName": "skyfast",
+        "monetizationTypes": ["LINEAR_FLATRATE"]
+      },
+      {
+        "packageId": 2745,
+        "clearName": "Sony Pictures Core Amazon Channel",
+        "shortName": "sco",
+        "technicalName": "amazonspcore",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2748,
+        "clearName": "Wedotv Live",
+        "shortName": "wdo",
+        "technicalName": "wedotvfast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2749,
+        "clearName": "DMAX Live",
+        "shortName": "dmx",
+        "technicalName": "dmaxfast",
+        "monetizationTypes": ["LINEAR_FLATRATE"]
+      },
+      {
+        "packageId": 2753,
+        "clearName": "Rakuten Live",
+        "shortName": "rkl",
+        "technicalName": "rakutenfast",
+        "monetizationTypes": ["FAST"]
+      },
+      {
+        "packageId": 2755,
+        "clearName": "AXN Black Live",
+        "shortName": "xnb",
+        "technicalName": "axnblackfast",
+        "monetizationTypes": ["LINEAR_FLATRATE"]
+      },
+      {
+        "packageId": 2756,
+        "clearName": "AXN White Live",
+        "shortName": "xnw",
+        "technicalName": "axnwhitefast",
+        "monetizationTypes": ["LINEAR_FLATRATE"]
+      },
+      {
+        "packageId": 2763,
+        "clearName": "NITRO TV Live",
+        "shortName": "nit",
+        "technicalName": "nitrotvfast",
+        "monetizationTypes": ["LINEAR_FLATRATE"]
+      },
+      {
+        "packageId": 2765,
+        "clearName": "Pijama Films",
+        "shortName": "pij",
+        "technicalName": "pijamafilms",
+        "monetizationTypes": ["RENT"]
+      },
+      {
+        "packageId": 2782,
+        "clearName": "Filmtap",
+        "shortName": "fit",
+        "technicalName": "filmtap",
+        "monetizationTypes": ["FREE"]
+      },
+      {
+        "packageId": 2783,
+        "clearName": "The Asylum Channel Amazon Channel",
+        "shortName": "tml",
+        "technicalName": "amazontheasylumchannel",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2806,
+        "clearName": "Happy Entertainment Amazon Channel",
+        "shortName": "hap",
+        "technicalName": "amazonhappyentertainment",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2405,
+        "clearName": "IndieFlix Shorts Amazon Channel",
+        "shortName": "inx",
+        "technicalName": "amazonindieflix",
+        "monetizationTypes": ["FLATRATE"]
+      },
+      {
+        "packageId": 2836,
+        "clearName": "CinemaxX",
+        "shortName": "cix",
+        "technicalName": "cinemaxx",
+        "monetizationTypes": ["CINEMA"]
+      },
+      {
+        "packageId": 2837,
+        "clearName": "Yorck Kino",
+        "shortName": "yor",
+        "technicalName": "yorckkino",
+        "monetizationTypes": ["CINEMA"]
+      }
+    ]
+  }
+}

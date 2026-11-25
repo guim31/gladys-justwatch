@@ -1,0 +1,93 @@
+{
+  "data": {
+    "popularTitles": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "Movie",
+            "id": "tm305113",
+            "content": {
+              "title": "Dune - Première partie",
+              "fullPath": "/fr/film/dune-2020",
+              "originalReleaseYear": 2021
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Show",
+            "id": "ts17132",
+            "content": {
+              "title": "Dune",
+              "fullPath": "/fr/serie/dune",
+              "originalReleaseYear": 2000
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Movie",
+            "id": "tm166964",
+            "content": {
+              "title": "Dune",
+              "fullPath": "/fr/film/dune",
+              "originalReleaseYear": 1984
+            },
+            "offers": [
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 381,
+                  "clearName": "Canal+",
+                  "shortName": "cpd"
+                }
+              },
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 381,
+                  "clearName": "Canal+",
+                  "shortName": "cpd"
+                }
+              },
+              {
+                "monetizationType": "FLATRATE",
+                "package": {
+                  "packageId": 381,
+                  "clearName": "Canal+",
+                  "shortName": "cpd"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "__typename": "Show",
+            "id": "ts4117",
+            "content": {
+              "title": "Les Enfants de Dune",
+              "fullPath": "/fr/serie/les-enfants-de-dune",
+              "originalReleaseYear": 2003
+            },
+            "offers": []
+          }
+        },
+        {
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1133934",
+            "content": {
+              "title": "Dune : Deuxième partie",
+              "fullPath": "/fr/film/dune-deuxieme-partie",
+              "originalReleaseYear": 2024
+            },
+            "offers": []
+          }
+        }
+      ]
+    }
+  }
+}

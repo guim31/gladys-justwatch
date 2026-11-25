@@ -1,177 +1,940 @@
 {
   "manifest_version": 1,
   "type": "device",
-  "name": "Demo Devices Template",
+  "name": "JustWatch",
   "description": {
-    "en": "Starter template showing sensors, a switch, a dimmable light and a smart plug.",
-    "fr": "Template de démarrage : capteurs, interrupteur, lampe variable et prise connectée."
+    "en": "New films and series on your streaming platforms, and an alert when a watched title arrives.",
+    "fr": "Les nouveaux films et séries de vos plateformes de streaming, et une alerte quand un titre arrive.",
+    "de": "Neue Filme und Serien auf deinen Streaming-Plattformen und ein Alarm, wenn ein Titel ankommt.",
+    "es": "Nuevas películas y series en sus plataformas de streaming, y un aviso cuando llega un título."
   },
   "version": "1.0.0",
-  "docker_image": "ghcr.io/gladysassistant/integration-template-js:1.0.0",
+  "docker_image": "ghcr.io/guim31/gladys-justwatch:1.0.0",
   "gladys_version": ">=5.1.0",
-  "cover_image": "https://raw.githubusercontent.com/GladysAssistant/integration-template-js/master/cover.png",
-  "categories": ["lighting", "security", "environment"],
-  "transports": ["local", "cloud"],
+  "cover_image": "https://raw.githubusercontent.com/guim31/gladys-justwatch/main/cover.png",
+  "categories": ["multimedia", "leisure"],
+  "transports": ["cloud"],
   "config_schema": [
     {
       "key": "intro",
       "type": "section",
-      "label": { "en": "Getting started", "fr": "Pour commencer" },
+      "label": {
+        "en": "Your platforms",
+        "fr": "Vos plateformes",
+        "de": "Deine Plattformen",
+        "es": "Sus plataformas"
+      },
       "description": {
-        "en": "The demo weather station reads real data from the free Open-Meteo API: pick the coordinates to observe. No account, no API key.",
-        "fr": "La station météo de démonstration lit de vraies données via l'API gratuite Open-Meteo : choisissez les coordonnées à observer. Pas de compte, pas de clé d'API."
+        "en": "Each list of platforms (one to three) becomes a device: titles arrived today, in 7 days, latest arrival. Watched titles add a device and a trigger when one becomes available. Save, then create the devices in the Discover tab.",
+        "fr": "Chaque liste de plateformes (une à trois) devient un appareil : titres arrivés aujourd’hui, sur 7 jours, dernière arrivée. Les titres surveillés ajoutent un appareil et un déclencheur quand l’un d’eux devient disponible. Enregistrez, puis créez les appareils dans l’onglet Découverte.",
+        "de": "Jede Liste von Plattformen (eine bis drei) wird ein Gerät: heute angekommene Titel, in 7 Tagen, neuester Titel. Beobachtete Titel ergeben ein Gerät und einen Auslöser, sobald einer verfügbar wird. Speichere und lege dann die Geräte im Tab „Entdecken“ an.",
+        "es": "Cada lista de plataformas (de una a tres) se convierte en un dispositivo: títulos llegados hoy, en 7 días, última llegada. Los títulos vigilados añaden un dispositivo y un aviso cuando uno está disponible. Guarde y cree los dispositivos en la pestaña Descubrir."
       },
       "links": [
         {
-          "url": "https://open-meteo.com/en/docs",
-          "label": { "en": "Open-Meteo documentation", "fr": "Documentation Open-Meteo" }
+          "url": "https://github.com/guim31/gladys-justwatch/blob/main/docs/en.md",
+          "label": {
+            "en": "Setup guide",
+            "fr": "Guide d'installation",
+            "de": "Installationsanleitung",
+            "es": "Guía de instalación"
+          }
         }
       ]
     },
     {
-      "key": "latitude",
-      "type": "number",
-      "label": { "en": "Latitude", "fr": "Latitude" },
-      "description": {
-        "en": "Latitude used for the demo weather sensor.",
-        "fr": "Latitude utilisée par le capteur météo de démonstration."
+      "key": "about",
+      "type": "section",
+      "label": {
+        "en": "Source and limits",
+        "fr": "Source et limites",
+        "de": "Quelle und Grenzen",
+        "es": "Fuente y límites"
       },
-      "placeholder": { "en": "e.g. 48.8566", "fr": "ex. 48.8566" },
-      "required": true,
-      "default": 48.8566,
-      "min": -90,
-      "max": 90
-    },
-    {
-      "key": "longitude",
-      "type": "number",
-      "label": { "en": "Longitude", "fr": "Longitude" },
       "description": {
-        "en": "Longitude used for the demo weather sensor.",
-        "fr": "Longitude utilisée par le capteur météo de démonstration."
+        "en": "Read from JustWatch, without an account, through the API of its website: not an official API, it may change without notice. Subscription, free and ad-supported offers count, not rentals or purchases. Not affiliated with JustWatch.",
+        "fr": "Lu sur JustWatch, sans compte, par l’API de son site : ce n’est pas une API officielle, elle peut changer sans prévenir. Comptent les offres par abonnement, gratuites ou avec publicité, pas la location ni l’achat. Non affiliée à JustWatch.",
+        "de": "Von JustWatch gelesen, ohne Konto, über die API der Website: keine offizielle API, sie kann sich ohne Vorwarnung ändern. Es zählen Abo-, kostenlose und werbefinanzierte Angebote, nicht Leihen oder Kaufen. Nicht mit JustWatch verbunden.",
+        "es": "Leído de JustWatch, sin cuenta, mediante la API de su sitio web: no es una API oficial y puede cambiar sin aviso. Cuentan las ofertas por suscripción, gratuitas o con anuncios, no el alquiler ni la compra. Sin afiliación con JustWatch."
       },
-      "placeholder": { "en": "e.g. 2.3522", "fr": "ex. 2.3522" },
-      "required": true,
-      "default": 2.3522,
-      "min": -180,
-      "max": 180
-    },
-    {
-      "key": "unit",
-      "type": "select",
-      "label": { "en": "Temperature unit", "fr": "Unité de température" },
-      "required": false,
-      "default": "celsius",
-      "options": [
-        { "value": "celsius", "label": { "en": "Celsius", "fr": "Celsius" } },
-        { "value": "fahrenheit", "label": { "en": "Fahrenheit", "fr": "Fahrenheit" } }
+      "links": [
+        {
+          "url": "https://www.justwatch.com",
+          "label": {
+            "en": "JustWatch website",
+            "fr": "Site JustWatch",
+            "de": "Website von JustWatch",
+            "es": "Sitio web de JustWatch"
+          }
+        }
       ]
     },
     {
-      "key": "poll_frequency",
-      "type": "number",
-      "label": { "en": "Refresh interval (s)", "fr": "Intervalle de rafraîchissement (s)" },
+      "key": "country",
+      "type": "select",
+      "label": {
+        "en": "Country",
+        "fr": "Pays",
+        "de": "Land",
+        "es": "País"
+      },
       "description": {
-        "en": "How often sensors are polled, in seconds (one minute minimum).",
-        "fr": "Fréquence d'interrogation des capteurs, en secondes (une minute minimum)."
+        "en": "The streaming catalog of this country.",
+        "fr": "Le catalogue de streaming de ce pays.",
+        "de": "Der Streaming-Katalog dieses Landes.",
+        "es": "El catálogo de streaming de este país."
       },
       "required": false,
-      "default": 300,
-      "min": 60,
-      "max": 3600
-    }
-  ],
-  "actions": [
-    {
-      "key": "test_weather",
-      "label": { "en": "Test the weather provider", "fr": "Tester le fournisseur météo" },
-      "timeout_seconds": 30
+      "default": "FR",
+      "options": [
+        {
+          "value": "FR",
+          "label": {
+            "en": "France",
+            "fr": "France",
+            "de": "Frankreich",
+            "es": "Francia"
+          }
+        },
+        {
+          "value": "BE",
+          "label": {
+            "en": "Belgium",
+            "fr": "Belgique",
+            "de": "Belgien",
+            "es": "Bélgica"
+          }
+        },
+        {
+          "value": "CH",
+          "label": {
+            "en": "Switzerland",
+            "fr": "Suisse",
+            "de": "Schweiz",
+            "es": "Suiza"
+          }
+        },
+        {
+          "value": "LU",
+          "label": {
+            "en": "Luxembourg",
+            "fr": "Luxembourg",
+            "de": "Luxemburg",
+            "es": "Luxemburgo"
+          }
+        },
+        {
+          "value": "CA",
+          "label": {
+            "en": "Canada",
+            "fr": "Canada",
+            "de": "Kanada",
+            "es": "Canadá"
+          }
+        },
+        {
+          "value": "DE",
+          "label": {
+            "en": "Germany",
+            "fr": "Allemagne",
+            "de": "Deutschland",
+            "es": "Alemania"
+          }
+        },
+        {
+          "value": "AT",
+          "label": {
+            "en": "Austria",
+            "fr": "Autriche",
+            "de": "Österreich",
+            "es": "Austria"
+          }
+        },
+        {
+          "value": "ES",
+          "label": {
+            "en": "Spain",
+            "fr": "Espagne",
+            "de": "Spanien",
+            "es": "España"
+          }
+        },
+        {
+          "value": "IT",
+          "label": {
+            "en": "Italy",
+            "fr": "Italie",
+            "de": "Italien",
+            "es": "Italia"
+          }
+        },
+        {
+          "value": "PT",
+          "label": {
+            "en": "Portugal",
+            "fr": "Portugal",
+            "de": "Portugal",
+            "es": "Portugal"
+          }
+        },
+        {
+          "value": "NL",
+          "label": {
+            "en": "Netherlands",
+            "fr": "Pays-Bas",
+            "de": "Niederlande",
+            "es": "Países Bajos"
+          }
+        },
+        {
+          "value": "GB",
+          "label": {
+            "en": "United Kingdom",
+            "fr": "Royaume-Uni",
+            "de": "Vereinigtes Königreich",
+            "es": "Reino Unido"
+          }
+        },
+        {
+          "value": "IE",
+          "label": {
+            "en": "Ireland",
+            "fr": "Irlande",
+            "de": "Irland",
+            "es": "Irlanda"
+          }
+        },
+        {
+          "value": "US",
+          "label": {
+            "en": "United States",
+            "fr": "États-Unis",
+            "de": "Vereinigte Staaten",
+            "es": "Estados Unidos"
+          }
+        }
+      ]
     },
     {
-      "key": "identify",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
-      "fields": [
+      "key": "list_1_platforms",
+      "type": "string",
+      "label": {
+        "en": "List 1: platforms",
+        "fr": "Liste 1 : plateformes",
+        "de": "Liste 1: Plattformen",
+        "es": "Lista 1: plataformas"
+      },
+      "description": {
+        "en": "Platform names as JustWatch writes them, separated by commas. Empty: no list.",
+        "fr": "Noms des plateformes comme JustWatch les écrit, séparés par des virgules. Vide : pas de liste.",
+        "de": "Namen der Plattformen wie bei JustWatch, durch Kommas getrennt. Leer: keine Liste.",
+        "es": "Nombres de las plataformas como los escribe JustWatch, separados por comas. Vacío: sin lista."
+      },
+      "placeholder": {
+        "en": "e.g. Netflix, Prime Video, Disney+",
+        "fr": "ex. Netflix, Prime Video, Canal+",
+        "de": "z. B. Netflix, Prime Video, Disney+",
+        "es": "p. ej. Netflix, Prime Video, Movistar Plus+"
+      },
+      "required": false,
+      "default": ""
+    },
+    {
+      "key": "list_1_kind",
+      "type": "select",
+      "label": {
+        "en": "List 1: titles",
+        "fr": "Liste 1 : titres",
+        "de": "Liste 1: Titel",
+        "es": "Lista 1: títulos"
+      },
+      "required": false,
+      "default": "all",
+      "options": [
         {
-          "key": "device",
-          "type": "select",
-          "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
+          "value": "all",
+          "label": {
+            "en": "Films and series",
+            "fr": "Films et séries",
+            "de": "Filme und Serien",
+            "es": "Películas y series"
+          }
+        },
+        {
+          "value": "movies",
+          "label": {
+            "en": "Films only",
+            "fr": "Films seulement",
+            "de": "Nur Filme",
+            "es": "Solo películas"
+          }
+        },
+        {
+          "value": "shows",
+          "label": {
+            "en": "Series only",
+            "fr": "Séries seulement",
+            "de": "Nur Serien",
+            "es": "Solo series"
+          }
+        }
+      ]
+    },
+    {
+      "key": "list_2_platforms",
+      "type": "string",
+      "label": {
+        "en": "List 2: platforms",
+        "fr": "Liste 2 : plateformes",
+        "de": "Liste 2: Plattformen",
+        "es": "Lista 2: plataformas"
+      },
+      "description": {
+        "en": "Platform names as JustWatch writes them, separated by commas. Empty: no list.",
+        "fr": "Noms des plateformes comme JustWatch les écrit, séparés par des virgules. Vide : pas de liste.",
+        "de": "Namen der Plattformen wie bei JustWatch, durch Kommas getrennt. Leer: keine Liste.",
+        "es": "Nombres de las plataformas como los escribe JustWatch, separados por comas. Vacío: sin lista."
+      },
+      "placeholder": {
+        "en": "e.g. Arte, France TV",
+        "fr": "ex. Arte, France TV",
+        "de": "z. B. ARD Mediathek",
+        "es": "p. ej. RTVE Play"
+      },
+      "required": false,
+      "default": ""
+    },
+    {
+      "key": "list_2_kind",
+      "type": "select",
+      "label": {
+        "en": "List 2: titles",
+        "fr": "Liste 2 : titres",
+        "de": "Liste 2: Titel",
+        "es": "Lista 2: títulos"
+      },
+      "required": false,
+      "default": "all",
+      "options": [
+        {
+          "value": "all",
+          "label": {
+            "en": "Films and series",
+            "fr": "Films et séries",
+            "de": "Filme und Serien",
+            "es": "Películas y series"
+          }
+        },
+        {
+          "value": "movies",
+          "label": {
+            "en": "Films only",
+            "fr": "Films seulement",
+            "de": "Nur Filme",
+            "es": "Solo películas"
+          }
+        },
+        {
+          "value": "shows",
+          "label": {
+            "en": "Series only",
+            "fr": "Séries seulement",
+            "de": "Nur Serien",
+            "es": "Solo series"
+          }
+        }
+      ]
+    },
+    {
+      "key": "list_3_platforms",
+      "type": "string",
+      "label": {
+        "en": "List 3: platforms",
+        "fr": "Liste 3 : plateformes",
+        "de": "Liste 3: Plattformen",
+        "es": "Lista 3: plataformas"
+      },
+      "description": {
+        "en": "Platform names as JustWatch writes them, separated by commas. Empty: no list.",
+        "fr": "Noms des plateformes comme JustWatch les écrit, séparés par des virgules. Vide : pas de liste.",
+        "de": "Namen der Plattformen wie bei JustWatch, durch Kommas getrennt. Leer: keine Liste.",
+        "es": "Nombres de las plataformas como los escribe JustWatch, separados por comas. Vacío: sin lista."
+      },
+      "placeholder": {
+        "en": "e.g. Crunchyroll",
+        "fr": "ex. Crunchyroll",
+        "de": "z. B. Crunchyroll",
+        "es": "p. ej. Crunchyroll"
+      },
+      "required": false,
+      "default": ""
+    },
+    {
+      "key": "list_3_kind",
+      "type": "select",
+      "label": {
+        "en": "List 3: titles",
+        "fr": "Liste 3 : titres",
+        "de": "Liste 3: Titel",
+        "es": "Lista 3: títulos"
+      },
+      "required": false,
+      "default": "all",
+      "options": [
+        {
+          "value": "all",
+          "label": {
+            "en": "Films and series",
+            "fr": "Films et séries",
+            "de": "Filme und Serien",
+            "es": "Películas y series"
+          }
+        },
+        {
+          "value": "movies",
+          "label": {
+            "en": "Films only",
+            "fr": "Films seulement",
+            "de": "Nur Filme",
+            "es": "Solo películas"
+          }
+        },
+        {
+          "value": "shows",
+          "label": {
+            "en": "Series only",
+            "fr": "Séries seulement",
+            "de": "Nur Serien",
+            "es": "Solo series"
+          }
+        }
+      ]
+    },
+    {
+      "key": "watched_titles",
+      "type": "string",
+      "label": {
+        "en": "Watched titles",
+        "fr": "Titres surveillés",
+        "de": "Beobachtete Titel",
+        "es": "Títulos vigilados"
+      },
+      "description": {
+        "en": "Films or series to watch for on the platforms of your lists, separated by semicolons. Add the year in brackets to pick a version. Twenty at most.",
+        "fr": "Films ou séries à guetter sur les plateformes de vos listes, séparés par des points-virgules. Ajoutez l’année entre parenthèses pour choisir une version. Vingt au plus.",
+        "de": "Filme oder Serien, auf die du bei den Plattformen deiner Listen wartest, durch Semikolons getrennt. Füge das Jahr in Klammern hinzu, um eine Fassung zu wählen. Höchstens zwanzig.",
+        "es": "Películas o series que esperar en las plataformas de sus listas, separadas por punto y coma. Añada el año entre paréntesis para elegir una versión. Veinte como máximo."
+      },
+      "placeholder": {
+        "en": "e.g. Dune (1984); Severance",
+        "fr": "ex. Dune (1984) ; Severance",
+        "de": "z. B. Dune (1984); Severance",
+        "es": "p. ej. Dune (1984); Severance"
+      },
+      "required": false,
+      "default": ""
+    },
+    {
+      "key": "refresh_interval",
+      "type": "select",
+      "label": {
+        "en": "Refresh interval",
+        "fr": "Fréquence de mise à jour",
+        "de": "Aktualisierungsintervall",
+        "es": "Intervalo de actualización"
+      },
+      "description": {
+        "en": "Two requests per list at each reading, plus one for the watched titles. New titles land once or twice a day.",
+        "fr": "Deux requêtes par liste à chaque lecture, plus une pour les titres surveillés. Les nouveautés arrivent une ou deux fois par jour.",
+        "de": "Zwei Anfragen pro Liste bei jedem Abruf, dazu eine für die beobachteten Titel. Neue Titel kommen ein- oder zweimal am Tag.",
+        "es": "Dos peticiones por lista en cada lectura, más una para los títulos vigilados. Las novedades llegan una o dos veces al día."
+      },
+      "required": false,
+      "default": "120",
+      "options": [
+        {
+          "value": "60",
+          "label": {
+            "en": "1 hour",
+            "fr": "1 heure",
+            "de": "1 Stunde",
+            "es": "1 hora"
+          }
+        },
+        {
+          "value": "120",
+          "label": {
+            "en": "2 hours",
+            "fr": "2 heures",
+            "de": "2 Stunden",
+            "es": "2 horas"
+          }
+        },
+        {
+          "value": "360",
+          "label": {
+            "en": "6 hours",
+            "fr": "6 heures",
+            "de": "6 Stunden",
+            "es": "6 horas"
+          }
+        }
+      ]
+    },
+    {
+      "key": "language",
+      "type": "select",
+      "label": {
+        "en": "Language of the texts",
+        "fr": "Langue des textes",
+        "de": "Sprache der Texte",
+        "es": "Idioma de los textos"
+      },
+      "description": {
+        "en": "Titles as JustWatch gives them in this language, names of the features (at their creation) and texts sent to the scenes.",
+        "fr": "Titres tels que JustWatch les donne dans cette langue, noms des fonctionnalités (à leur création) et textes envoyés aux scènes.",
+        "de": "Titel, wie JustWatch sie in dieser Sprache liefert, Namen der Funktionen (bei ihrer Erstellung) und Texte für die Szenen.",
+        "es": "Títulos tal como JustWatch los da en este idioma, nombres de las funciones (al crearlas) y textos enviados a las escenas."
+      },
+      "required": false,
+      "default": "fr",
+      "options": [
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "fr": "Anglais",
+            "de": "Englisch",
+            "es": "Inglés"
+          }
+        },
+        {
+          "value": "fr",
+          "label": {
+            "en": "French",
+            "fr": "Français",
+            "de": "Französisch",
+            "es": "Francés"
+          }
+        },
+        {
+          "value": "de",
+          "label": {
+            "en": "German",
+            "fr": "Allemand",
+            "de": "Deutsch",
+            "es": "Alemán"
+          }
+        },
+        {
+          "value": "es",
+          "label": {
+            "en": "Spanish",
+            "fr": "Espagnol",
+            "de": "Spanisch",
+            "es": "Español"
+          }
         }
       ]
     }
   ],
   "scene_triggers": [
     {
-      "key": "motion_detected",
-      "label": { "en": "Motion detected", "fr": "Mouvement détecté" },
+      "key": "new_title",
+      "label": {
+        "en": "JustWatch: new title on my platforms",
+        "fr": "JustWatch : nouveau titre sur mes plateformes",
+        "de": "JustWatch: neuer Titel auf meinen Plattformen",
+        "es": "JustWatch: nuevo título en mis plataformas"
+      },
       "description": {
-        "en": "A demo motion sensor saw a person or an animal move.",
-        "fr": "Un détecteur de démonstration a vu bouger une personne ou un animal."
+        "en": "A film or a season arrived on a platform of a list, seen at the next reading.",
+        "fr": "Un film ou une saison est arrivé sur une plateforme d’une liste, vu à la lecture suivante.",
+        "de": "Ein Film oder eine Staffel ist auf einer Plattform einer Liste angekommen, beim nächsten Abruf gesehen.",
+        "es": "Una película o una temporada llegó a una plataforma de una lista, vista en la siguiente lectura."
       },
       "fields": [
         {
           "key": "device",
           "type": "select",
           "source": "devices",
-          "label": { "en": "Sensor", "fr": "Détecteur" }
+          "label": {
+            "en": "List",
+            "fr": "Liste",
+            "de": "Liste",
+            "es": "Lista"
+          },
+          "description": {
+            "en": "Empty: any list.",
+            "fr": "Vide : n’importe quelle liste.",
+            "de": "Leer: jede Liste.",
+            "es": "Vacío: cualquier lista."
+          },
+          "required": false
         },
         {
-          "key": "target",
+          "key": "kind",
           "type": "multi_select",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" },
+          "label": {
+            "en": "Kind",
+            "fr": "Genre",
+            "de": "Art",
+            "es": "Tipo"
+          },
+          "description": {
+            "en": "Empty: films and series.",
+            "fr": "Vide : films et séries.",
+            "de": "Leer: Filme und Serien.",
+            "es": "Vacío: películas y series."
+          },
+          "required": false,
           "options": [
-            { "value": "person", "label": { "en": "Person", "fr": "Personne" } },
-            { "value": "animal", "label": { "en": "Animal", "fr": "Animal" } }
+            {
+              "value": "movie",
+              "label": {
+                "en": "Film",
+                "fr": "Film",
+                "de": "Film",
+                "es": "Película"
+              }
+            },
+            {
+              "value": "show",
+              "label": {
+                "en": "Series",
+                "fr": "Série",
+                "de": "Serie",
+                "es": "Serie"
+              }
+            }
           ]
         }
       ],
       "variables": [
         {
-          "key": "target",
+          "key": "title",
           "type": "string",
-          "label": { "en": "What moved", "fr": "Ce qui a bougé" }
+          "label": {
+            "en": "Title",
+            "fr": "Titre",
+            "de": "Titel",
+            "es": "Título"
+          }
+        },
+        {
+          "key": "year",
+          "type": "number",
+          "label": {
+            "en": "Release year",
+            "fr": "Année de sortie",
+            "de": "Erscheinungsjahr",
+            "es": "Año de estreno"
+          }
+        },
+        {
+          "key": "season",
+          "type": "number",
+          "label": {
+            "en": "Season (0 for a film)",
+            "fr": "Saison (0 pour un film)",
+            "de": "Staffel (0 bei einem Film)",
+            "es": "Temporada (0 para una película)"
+          }
+        },
+        {
+          "key": "platforms",
+          "type": "string",
+          "label": {
+            "en": "Platforms",
+            "fr": "Plateformes",
+            "de": "Plattformen",
+            "es": "Plataformas"
+          }
+        },
+        {
+          "key": "url",
+          "type": "string",
+          "label": {
+            "en": "JustWatch link",
+            "fr": "Lien JustWatch",
+            "de": "JustWatch-Link",
+            "es": "Enlace de JustWatch"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary, in one sentence",
+            "fr": "Résumé, en une phrase",
+            "de": "Zusammenfassung, in einem Satz",
+            "es": "Resumen, en una frase"
+          }
+        }
+      ]
+    },
+    {
+      "key": "title_available",
+      "label": {
+        "en": "JustWatch: watched title available",
+        "fr": "JustWatch : titre surveillé disponible",
+        "de": "JustWatch: beobachteter Titel verfügbar",
+        "es": "JustWatch: título vigilado disponible"
+      },
+      "description": {
+        "en": "A watched title is on a platform of your lists, where it was not before (once when you add a title already there).",
+        "fr": "Un titre surveillé est sur une plateforme de vos listes, où il n’était pas (une fois à l’ajout d’un titre déjà présent).",
+        "de": "Ein beobachteter Titel ist auf einer Plattform deiner Listen, wo er vorher nicht war (einmal beim Hinzufügen, wenn schon da).",
+        "es": "Un título vigilado está en una plataforma de sus listas donde no estaba (una vez al añadir un título ya presente)."
+      },
+      "variables": [
+        {
+          "key": "title",
+          "type": "string",
+          "label": {
+            "en": "Title",
+            "fr": "Titre",
+            "de": "Titel",
+            "es": "Título"
+          }
+        },
+        {
+          "key": "year",
+          "type": "number",
+          "label": {
+            "en": "Release year",
+            "fr": "Année de sortie",
+            "de": "Erscheinungsjahr",
+            "es": "Año de estreno"
+          }
+        },
+        {
+          "key": "platforms",
+          "type": "string",
+          "label": {
+            "en": "Platforms",
+            "fr": "Plateformes",
+            "de": "Plattformen",
+            "es": "Plataformas"
+          }
+        },
+        {
+          "key": "url",
+          "type": "string",
+          "label": {
+            "en": "JustWatch link",
+            "fr": "Lien JustWatch",
+            "de": "JustWatch-Link",
+            "es": "Enlace de JustWatch"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary, in one sentence",
+            "fr": "Résumé, en une phrase",
+            "de": "Zusammenfassung, in einem Satz",
+            "es": "Resumen, en una frase"
+          }
         }
       ]
     }
   ],
   "scene_actions": [
     {
-      "key": "identify_device",
-      "label": { "en": "Identify a device", "fr": "Identifier un appareil" },
-      "description": {
-        "en": "Make a device signal itself (the demo light blinks).",
-        "fr": "Fait se signaler un appareil (la lampe de démonstration clignote)."
+      "key": "where_to_watch",
+      "label": {
+        "en": "JustWatch: where to watch a title",
+        "fr": "JustWatch : où regarder un titre",
+        "de": "JustWatch: wo ein Titel läuft",
+        "es": "JustWatch: dónde ver un título"
       },
-      "timeout_seconds": 15,
+      "description": {
+        "en": "Searches a title on JustWatch and says on which platforms of your lists it is.",
+        "fr": "Cherche un titre sur JustWatch et dit sur quelles plateformes de vos listes il se trouve.",
+        "de": "Sucht einen Titel auf JustWatch und sagt, auf welchen Plattformen deiner Listen er ist.",
+        "es": "Busca un título en JustWatch e indica en qué plataformas de sus listas está."
+      },
+      "timeout_seconds": 30,
       "fields": [
         {
-          "key": "device",
-          "type": "select",
-          "source": "devices",
-          "label": { "en": "Device", "fr": "Appareil" },
-          "required": true
+          "key": "title",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Title",
+            "fr": "Titre",
+            "de": "Titel",
+            "es": "Título"
+          },
+          "description": {
+            "en": "Add the year in brackets to pick a version.",
+            "fr": "Ajoutez l’année entre parenthèses pour choisir une version.",
+            "de": "Füge das Jahr in Klammern hinzu, um eine Fassung zu wählen.",
+            "es": "Añada el año entre paréntesis para elegir una versión."
+          },
+          "placeholder": {
+            "en": "e.g. Severance",
+            "fr": "ex. Severance",
+            "de": "z. B. Severance",
+            "es": "p. ej. Severance"
+          }
         }
       ],
       "outputs": [
         {
-          "key": "signalled",
-          "type": "boolean",
-          "label": { "en": "Device signalled", "fr": "Appareil signalé" }
+          "key": "found",
+          "type": "number",
+          "label": {
+            "en": "Title found (1) or not (0)",
+            "fr": "Titre trouvé (1) ou non (0)",
+            "de": "Titel gefunden (1) oder nicht (0)",
+            "es": "Título encontrado (1) o no (0)"
+          }
+        },
+        {
+          "key": "title",
+          "type": "string",
+          "label": {
+            "en": "Title",
+            "fr": "Titre",
+            "de": "Titel",
+            "es": "Título"
+          }
+        },
+        {
+          "key": "year",
+          "type": "number",
+          "label": {
+            "en": "Release year",
+            "fr": "Année de sortie",
+            "de": "Erscheinungsjahr",
+            "es": "Año de estreno"
+          }
+        },
+        {
+          "key": "available",
+          "type": "number",
+          "label": {
+            "en": "On my platforms (1) or not (0)",
+            "fr": "Sur mes plateformes (1) ou non (0)",
+            "de": "Auf meinen Plattformen (1) oder nicht (0)",
+            "es": "En mis plataformas (1) o no (0)"
+          }
+        },
+        {
+          "key": "platforms",
+          "type": "string",
+          "label": {
+            "en": "Platforms",
+            "fr": "Plateformes",
+            "de": "Plattformen",
+            "es": "Plataformas"
+          }
+        },
+        {
+          "key": "url",
+          "type": "string",
+          "label": {
+            "en": "JustWatch link",
+            "fr": "Lien JustWatch",
+            "de": "JustWatch-Link",
+            "es": "Enlace de JustWatch"
+          }
         }
       ]
     }
   ],
   "widgets": [
     {
-      "key": "demo_status",
-      "label": { "en": "Demo status", "fr": "État de la démo" },
-      "description": {
-        "en": "Live temperature and plug power, plug connection and observed location.",
-        "fr": "Température et puissance en direct, connexion de la prise, position observée."
+      "key": "new_titles",
+      "label": {
+        "en": "JustWatch new titles",
+        "fr": "Nouveautés JustWatch",
+        "de": "Neu bei JustWatch",
+        "es": "Novedades JustWatch"
       },
-      "icon": "activity",
-      "action_timeout_seconds": 15
+      "description": {
+        "en": "Latest arrivals on your platforms, and where your watched titles are.",
+        "fr": "Dernières arrivées sur vos plateformes, et où sont vos titres surveillés.",
+        "de": "Neueste Titel auf deinen Plattformen und wo deine beobachteten Titel sind.",
+        "es": "Últimas llegadas a sus plataformas, y dónde están sus títulos vigilados."
+      },
+      "icon": "film",
+      "settings": [
+        {
+          "key": "device",
+          "type": "select",
+          "source": "devices",
+          "label": {
+            "en": "List",
+            "fr": "Liste",
+            "de": "Liste",
+            "es": "Lista"
+          },
+          "description": {
+            "en": "Empty: every list.",
+            "fr": "Vide : toutes les listes.",
+            "de": "Leer: alle Listen.",
+            "es": "Vacío: todas las listas."
+          },
+          "required": false
+        },
+        {
+          "key": "days",
+          "type": "select",
+          "label": {
+            "en": "Period",
+            "fr": "Période",
+            "de": "Zeitraum",
+            "es": "Periodo"
+          },
+          "required": false,
+          "default": "1",
+          "options": [
+            {
+              "value": "1",
+              "label": {
+                "en": "Today",
+                "fr": "Aujourd’hui",
+                "de": "Heute",
+                "es": "Hoy"
+              }
+            },
+            {
+              "value": "3",
+              "label": {
+                "en": "3 days",
+                "fr": "3 jours",
+                "de": "3 Tage",
+                "es": "3 días"
+              }
+            },
+            {
+              "value": "7",
+              "label": {
+                "en": "7 days",
+                "fr": "7 jours",
+                "de": "7 Tage",
+                "es": "7 días"
+              }
+            }
+          ]
+        },
+        {
+          "key": "show_watched",
+          "type": "boolean",
+          "label": {
+            "en": "Show the watched titles",
+            "fr": "Afficher les titres surveillés",
+            "de": "Beobachtete Titel anzeigen",
+            "es": "Mostrar los títulos vigilados"
+          },
+          "required": false,
+          "default": true
+        }
+      ]
     }
   ]
 }

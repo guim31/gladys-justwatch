@@ -1,0 +1,165 @@
+{
+  "data": {
+    "newTitles": {
+      "totalCount": 208,
+      "pageInfo": {
+        "hasNextPage": false,
+        "endCursor": "MjA4"
+      },
+      "edges": [
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1963487",
+            "content": {
+              "title": "Lucas Pinheiro Braathen : À ma façon",
+              "fullPath": "/fr/film/lucas-pinheiro-braathen-a-ma-facon",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3014443",
+            "content": {
+              "title": "Violences dans le football - Et si on se calmait ?",
+              "fullPath": "/fr/film/violence-dans-le-football-et-si-on-se-calmait",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1958010",
+            "content": {
+              "title": "Love, Ted Bundy",
+              "fullPath": "/fr/film/love-ted-bundy",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm3035390",
+            "content": {
+              "title": "Kimi Antonelli: La nouvelle étoile",
+              "fullPath": "/fr/film/kimi-antonelli-la-nouvelle-etoile",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1502483",
+            "content": {
+              "title": "ALL'S FAIR IN LOVE",
+              "fullPath": "/fr/film/alls-fair-in-love",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2650068",
+            "content": {
+              "title": "Qu'est-ce qu'on fait?",
+              "fullPath": "/fr/film/quest-ce-quon-fait",
+              "originalReleaseYear": 2010
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1643220",
+            "content": {
+              "title": "Décembre",
+              "fullPath": "/fr/film/decembre-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm2998996",
+            "content": {
+              "title": "Une furieuse envie de vivre",
+              "fullPath": "/fr/film/une-furieuse-envie-de-vivre",
+              "originalReleaseYear": 2026
+            }
+          }
+        }
+      ]
+    }
+  }
+}

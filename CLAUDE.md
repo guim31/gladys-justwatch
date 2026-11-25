@@ -32,15 +32,18 @@ pushing.
 
 ```
 index.js                          SDK wiring only: handlers registered before connect()
-src/devices/index.js              registry of the device blueprints + dispatch helpers
-src/devices/<type>.js             one device type per file (buildDevice, onPoll, onSetValue...)
-src/scenes.js                     scene action handlers (manifest `scene_actions`)
-src/widgets.js                    dashboard widget handlers (manifest `widgets`)
+src/app.js                        registers every SDK handler on a GladysIntegration (or the fake)
+src/monitor.js                    refresh cycle: lists → devices, states, triggers, watched titles, scene action
+src/justwatch.js                  GraphQL client (Packages, NewTitles, Search, Offers), spacing, 429 retry
+src/device.js                     list devices and the watched titles device: external ids, buildDevice
+src/widgets.js                    dashboard widget `new_titles` (card-list + status)
+src/i18n.js                       texts of the container in en/fr/de/es, local days
 src/config.js                     DEFAULT_CONFIG (mirrors the manifest defaults) + normalization
-src/weather.js                    example driver (Open-Meteo)
-gladys-assistant-integration.json manifest: name, config_schema, actions, image...
-docs/en.md, docs/fr.md            user documentation, re-hosted by Gladys (mandatory)
-test/                             node --test, against the SDK's fake Gladys (integration-sdk/testing)
+src/store.js                      /data/justwatch.json: titles seen per list, watched titles (atomic writes)
+gladys-assistant-integration.json manifest: config, triggers, scene action, widget, image...
+docs/{en,fr,de,es}.md             user documentation, re-hosted by Gladys (en and fr mandatory)
+test/                             node --test, against the SDK's fake Gladys and a fake JustWatch API
+test/fixtures/justwatch/          real answers recorded on 25/11/2026 (FR and DE)
 .github/scripts/release.mjs       release helpers (manifest bump, changelog), tested in test/
 ```
 
@@ -78,8 +81,9 @@ test/                             node --test, against the SDK's fake Gladys (in
   `type: "provider"`: 5.1.0). `test/manifest.test.js` ties the manifest to the
   code (defaults, action, scene and widget handlers): change both sides
   together.
-- **User-facing text** is bilingual (English and French): action messages,
-  manifest texts, and `docs/en.md` / `docs/fr.md`, kept in sync.
+- **User-facing text** exists in English, French, German ("du") and Spanish
+  ("usted"): manifest, messages, feature names, widget, and `docs/*.md` with the
+  same sections. `test/i18n.test.js` enforces it.
 - **Style.** Prettier formats, ESLint catches mistakes. Comments explain why,
   in English. Tests never touch the network.
 
@@ -259,3 +263,24 @@ long, et sur un « Sie »/« Ihr… » de politesse en allemand. Le store exige 
 - Docs `en`, `fr`, `de`, `es` avec les mêmes sections.
 - Chauffe, ouverture, sécurité : ne rien rendre pilotable « comme un thermostat » ou par un assistant
   vocal quand une erreur serait dangereuse (leçon d'OctoPrint).
+
+## JustWatch (cette intégration)
+
+- API GraphQL **non officielle** du site (`https://apis.justwatch.com/graphql`), sans clé ni compte. User-Agent
+  honnête, une requête à la fois espacée d'une seconde, un seul nouvel essai après un 429. Une requête invalide
+  répond **422** avec `errors[0].message` (`GRAPHQL_VALIDATION_FAILED`) : c'est le signe d'un changement de schéma.
+- `newTitles(country, date, filter, first, after, pageType: NEW, priceDrops: false)` : pages de **100 au plus**
+  (`first: 500` → `TOO_BIG`). Ses nœuds sont `MovieOrSeason` : un fragment `... on Show` y est **refusé** (422). Le
+  filtre `objectTypes: [SHOW]` n'y filtre rien : le genre est filtré côté conteneur. `filter.packages` prend les
+  `shortName` (`nfx`, `prv`, `dnp`, `cpd`…), `filter.monetizationTypes` `[FLATRATE, FREE, ADS]`.
+- Les offres sont dupliquées par qualité (SD, HD, 4K) : dédupliquer par plateforme. Un même titre peut arriver sur
+  deux plateformes le même jour (deux arêtes).
+- `popularTitles(filter: { searchQuery })` trie par popularité : « Dune » donne _Dune - Première partie_ (2021) avant
+  la série de 2000 ; l'année entre parenthèses choisit la version. `nodes(ids)` relit les offres de titres connus en
+  un appel ; un id inconnu est simplement absent.
+- `packages(country)` d'un pays inconnu répond 200 avec une liste vide.
+- Appareils : la liste est identifiée par son **numéro** (`list-1`), pas par ses plateformes (leur nom change). Deux
+  compteurs par appareil pour que le tableau de bord garde les noms.
+- `title_available` part aussi pour un titre déjà disponible quand on l'ajoute (choix assumé : la question « quand
+  puis-je le voir ? » a sa réponse tout de suite) ; jamais après un redémarrage (plateformes gardées dans `/data`).
+- Les liens des cartes du widget (`links`) n'existent qu'à partir du cœur 5.2.0 : un cœur 5.1 les ignore.

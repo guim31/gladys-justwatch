@@ -1,0 +1,2177 @@
+{
+  "data": {
+    "newTitles": {
+      "totalCount": 208,
+      "pageInfo": {
+        "hasNextPage": true,
+        "endCursor": "MTAw"
+      },
+      "edges": [
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss461316",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/the-lord-of-the-rings/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts325752",
+              "content": {
+                "title": "Le Seigneur des anneaux : Les Anneaux de pouvoir",
+                "fullPath": "/fr/serie/the-lord-of-the-rings",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss237727",
+            "content": {
+              "title": "Saison 13",
+              "fullPath": "/fr/serie/american-horror-story/saison-13",
+              "seasonNumber": 13
+            },
+            "show": {
+              "id": "ts5746",
+              "content": {
+                "title": "American Horror Story",
+                "fullPath": "/fr/serie/american-horror-story",
+                "originalReleaseYear": 2011
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss555733",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/scrubs-2026/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts488409",
+              "content": {
+                "title": "Scrubs",
+                "fullPath": "/fr/serie/scrubs-2026",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss63630",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/good-mythical-morning/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts41854",
+              "content": {
+                "title": "Good Mythical Morning",
+                "fullPath": "/fr/serie/good-mythical-morning",
+                "originalReleaseYear": 2012
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss481762",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/the-remarried-empress/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts462074",
+              "content": {
+                "title": "L'impératrice remariée",
+                "fullPath": "/fr/serie/the-remarried-empress",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss551604",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/dragon-ball-super-beerus/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts517188",
+              "content": {
+                "title": "Dragon Ball Super : Beerus",
+                "fullPath": "/fr/serie/dragon-ball-super-beerus",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1436931",
+            "content": {
+              "title": "Michael",
+              "fullPath": "/fr/film/michael-2025-0",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss557422",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/rivals/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts363990",
+              "content": {
+                "title": "Rivals",
+                "fullPath": "/fr/serie/rivals",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss538695",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/alls-fair/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts413478",
+              "content": {
+                "title": "All's Fair",
+                "fullPath": "/fr/serie/alls-fair",
+                "originalReleaseYear": 2025
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss471039",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/sud-est/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts438690",
+              "content": {
+                "title": "Singapura",
+                "fullPath": "/fr/serie/sud-est",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss376680",
+            "content": {
+              "title": "Első Évad",
+              "fullPath": "/fr/serie/blade-runner-2099/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts330947",
+              "content": {
+                "title": "Blade Runner 2099",
+                "fullPath": "/fr/serie/blade-runner-2099",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss545266",
+            "content": {
+              "title": "Saison 20",
+              "fullPath": "/fr/serie/wwe-nxt/saison-20",
+              "seasonNumber": 20
+            },
+            "show": {
+              "id": "ts21481",
+              "content": {
+                "title": "WWE NXT",
+                "fullPath": "/fr/serie/wwe-nxt",
+                "originalReleaseYear": 2010
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss616932",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/style-wars-2026/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts562517",
+              "content": {
+                "title": "Style Wars",
+                "fullPath": "/fr/serie/style-wars-2026",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss602244",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/paris-has-fallen/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts398643",
+              "content": {
+                "title": "Has Fallen",
+                "fullPath": "/fr/serie/paris-has-fallen",
+                "originalReleaseYear": 2024
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss378187",
+            "content": {
+              "title": "Saison 10",
+              "fullPath": "/fr/serie/meurtres-a/saison-10",
+              "seasonNumber": 10
+            },
+            "show": {
+              "id": "ts44393",
+              "content": {
+                "title": "Meurtres à...",
+                "fullPath": "/fr/serie/meurtres-a",
+                "originalReleaseYear": 2013
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm11005",
+            "content": {
+              "title": "Heat",
+              "fullPath": "/fr/film/heat",
+              "originalReleaseYear": 1995
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1663439",
+            "content": {
+              "title": "Police Flash 80",
+              "fullPath": "/fr/film/police-flash-80",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss592991",
+            "content": {
+              "title": "Saison 4",
+              "fullPath": "/fr/serie/reasonable-doubt/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts359671",
+              "content": {
+                "title": "Reasonable Doubt",
+                "fullPath": "/fr/serie/reasonable-doubt",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss34289",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/soul-eater/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts25863",
+              "content": {
+                "title": "Soul Eater",
+                "fullPath": "/fr/serie/soul-eater",
+                "originalReleaseYear": 2008
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm19116",
+            "content": {
+              "title": "Les Ailes du désir",
+              "fullPath": "/fr/film/les-ailes-du-desir",
+              "originalReleaseYear": 1987
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm441050",
+            "content": {
+              "title": "The Gentlemen",
+              "fullPath": "/fr/film/the-gentlemen",
+              "originalReleaseYear": 2020
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss585526",
+            "content": {
+              "title": "Saison 52",
+              "fullPath": "/fr/serie/saturday-night-live-1975/saison-52",
+              "seasonNumber": 52
+            },
+            "show": {
+              "id": "ts20475",
+              "content": {
+                "title": "Saturday Night Live",
+                "fullPath": "/fr/serie/saturday-night-live-1975",
+                "originalReleaseYear": 1975
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1601418",
+            "content": {
+              "title": "Cocorico 2",
+              "fullPath": "/fr/film/cocorico-2",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss64975",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/babylon-berlin/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts42477",
+              "content": {
+                "title": "Babylon Berlin",
+                "fullPath": "/fr/serie/babylon-berlin",
+                "originalReleaseYear": 2017
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss536199",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/merry-berry-love/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts505741",
+              "content": {
+                "title": "Merry Berry Love",
+                "fullPath": "/fr/serie/merry-berry-love",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm138963",
+            "content": {
+              "title": "L'Affaire SK1",
+              "fullPath": "/fr/film/laffaire-sk1",
+              "originalReleaseYear": 2015
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm192405",
+            "content": {
+              "title": "Bienvenue à Gattaca",
+              "fullPath": "/fr/film/bienvenue-a-gattaca",
+              "originalReleaseYear": 1997
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm138000",
+            "content": {
+              "title": "Batman",
+              "fullPath": "/fr/film/batman",
+              "originalReleaseYear": 1989
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm101619",
+            "content": {
+              "title": "Gainsbourg (Vie héroïque)",
+              "fullPath": "/fr/film/gainsbourg-vie-heroique",
+              "originalReleaseYear": 2010
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm170839",
+            "content": {
+              "title": "Source Code",
+              "fullPath": "/fr/film/source-code",
+              "originalReleaseYear": 2011
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss548393",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/nine-to-six/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts514834",
+              "content": {
+                "title": "De 9 h à 18 h",
+                "fullPath": "/fr/serie/nine-to-six",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm197031",
+            "content": {
+              "title": "S.O.S. Fantômes",
+              "fullPath": "/fr/film/s-o-s-fantomes-3",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss24821",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/weeds/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts21446",
+              "content": {
+                "title": "Weeds",
+                "fullPath": "/fr/serie/weeds",
+                "originalReleaseYear": 2005
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1638202",
+            "content": {
+              "title": "The Tigers",
+              "fullPath": "/fr/film/los-tigres",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss29172",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/ulysse-31/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts22524",
+              "content": {
+                "title": "Ulysse 31",
+                "fullPath": "/fr/serie/ulysse-31",
+                "originalReleaseYear": 1981
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1867821",
+            "content": {
+              "title": "L'enfant du désert",
+              "fullPath": "/fr/film/lenfant-du-desert-2026",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss20945",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/saturday-night-live-1975/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts20475",
+              "content": {
+                "title": "Saturday Night Live",
+                "fullPath": "/fr/serie/saturday-night-live-1975",
+                "originalReleaseYear": 1975
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm59428",
+            "content": {
+              "title": "Happiness Therapy",
+              "fullPath": "/fr/film/happiness-therapy",
+              "originalReleaseYear": 2012
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm40259",
+            "content": {
+              "title": "Moonwalker",
+              "fullPath": "/fr/film/moonwalker",
+              "originalReleaseYear": 1988
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm84751",
+            "content": {
+              "title": "American Gangster",
+              "fullPath": "/fr/film/american-gangster",
+              "originalReleaseYear": 2007
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm62424",
+            "content": {
+              "title": "Papy fait de la résistance",
+              "fullPath": "/fr/film/papy-fait-de-la-resistance-1983",
+              "originalReleaseYear": 1983
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1942492",
+            "content": {
+              "title": "The Mosquito Bowl",
+              "fullPath": "/fr/film/the-mosquito-bowl-a-game-of-life-and-death-in-world-war-ii",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm170890",
+            "content": {
+              "title": "Super 8",
+              "fullPath": "/fr/film/super-8",
+              "originalReleaseYear": 2011
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss78687",
+            "content": {
+              "title": "Saison 4",
+              "fullPath": "/fr/serie/hot-ones/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts58205",
+              "content": {
+                "title": "Hot Ones",
+                "fullPath": "/fr/serie/hot-ones",
+                "originalReleaseYear": 2015
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss189308",
+            "content": {
+              "title": "Saison 4",
+              "fullPath": "/fr/serie/babylon-berlin/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts42477",
+              "content": {
+                "title": "Babylon Berlin",
+                "fullPath": "/fr/serie/babylon-berlin",
+                "originalReleaseYear": 2017
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm176614",
+            "content": {
+              "title": "La Délicatesse",
+              "fullPath": "/fr/film/la-delicatesse",
+              "originalReleaseYear": 2011
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm27911",
+            "content": {
+              "title": "Les Infiltrés",
+              "fullPath": "/fr/film/les-infiltres",
+              "originalReleaseYear": 2006
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss617686",
+            "content": {
+              "title": "Saison 4",
+              "fullPath": "/fr/serie/stranded-with-my-mother-in-law/saison-4",
+              "seasonNumber": 4
+            },
+            "show": {
+              "id": "ts387652",
+              "content": {
+                "title": "Un trésor de belle-mère",
+                "fullPath": "/fr/serie/stranded-with-my-mother-in-law",
+                "originalReleaseYear": 2023
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 337,
+              "clearName": "Disney Plus",
+              "shortName": "dnp"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss532369",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/the-drop-a-snowfall-saga/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts473255",
+              "content": {
+                "title": "The Drop : Une Saga Snowfall",
+                "fullPath": "/fr/serie/the-drop-a-snowfall-saga",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm20088",
+            "content": {
+              "title": "Chicken Run",
+              "fullPath": "/fr/film/chicken-run",
+              "originalReleaseYear": 2000
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1594229",
+            "content": {
+              "title": "L'Incroyable Femme des neiges",
+              "fullPath": "/fr/film/lincroyable-femme-des-neiges",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm91241",
+            "content": {
+              "title": "Soupirs",
+              "fullPath": "/fr/film/suspiria",
+              "originalReleaseYear": 1977
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss195379",
+            "content": {
+              "title": "Saison 3",
+              "fullPath": "/fr/serie/babylon-berlin/saison-3",
+              "seasonNumber": 3
+            },
+            "show": {
+              "id": "ts42477",
+              "content": {
+                "title": "Babylon Berlin",
+                "fullPath": "/fr/serie/babylon-berlin",
+                "originalReleaseYear": 2017
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1617369",
+            "content": {
+              "title": "À la poursuite du Père Noël !",
+              "fullPath": "/fr/film/a-la-poursuite-du-pere-noel",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1590684",
+            "content": {
+              "title": "La Maison des Femmes",
+              "fullPath": "/fr/film/la-maison-des-femmes-2026",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm173445",
+            "content": {
+              "title": "Marche à l'ombre",
+              "fullPath": "/fr/film/marche-a-lombre",
+              "originalReleaseYear": 1984
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1676855",
+            "content": {
+              "title": "Victor comme tout le monde",
+              "fullPath": "/fr/film/victor-comme-tout-le-monde",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm50296",
+            "content": {
+              "title": "Risky Business",
+              "fullPath": "/fr/film/risky-business-1983",
+              "originalReleaseYear": 1983
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm819054",
+            "content": {
+              "title": "L'origine du monde",
+              "fullPath": "/fr/film/lorigine-du-monde-2020-0",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1571535",
+            "content": {
+              "title": "Les Enfants de la Résistance",
+              "fullPath": "/fr/film/les-enfants-de-la-resistance",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm116000",
+            "content": {
+              "title": "La Folle Journée de Ferris Bueller",
+              "fullPath": "/fr/film/la-folle-journee-de-ferris-bueller",
+              "originalReleaseYear": 1986
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm278681",
+            "content": {
+              "title": "Le Chat Potté",
+              "fullPath": "/fr/film/le-chat-potte",
+              "originalReleaseYear": 2011
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1835",
+            "content": {
+              "title": "Le BGG : Le Bon Gros Géant",
+              "fullPath": "/fr/film/le-bgg-le-bon-gros-geant",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm252972",
+            "content": {
+              "title": "Detroit",
+              "fullPath": "/fr/film/detroit",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm28136",
+            "content": {
+              "title": "Les Fils de l'homme",
+              "fullPath": "/fr/film/les-fils-de-lhomme",
+              "originalReleaseYear": 2006
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm885567",
+            "content": {
+              "title": "Illusions perdues",
+              "fullPath": "/fr/film/comedie-humaine",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm24506",
+            "content": {
+              "title": "Les Sorcières d'Eastwick",
+              "fullPath": "/fr/film/les-sorcieres-deastwick",
+              "originalReleaseYear": 1987
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1952422",
+            "content": {
+              "title": "Wardriver",
+              "fullPath": "/fr/film/wardriver",
+              "originalReleaseYear": 2026
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss435411",
+            "content": {
+              "title": "Saison 6",
+              "fullPath": "/fr/serie/masha-and-the-bear/saison-6",
+              "seasonNumber": 6
+            },
+            "show": {
+              "id": "ts23835",
+              "content": {
+                "title": "Masha et Michka",
+                "fullPath": "/fr/serie/masha-and-the-bear",
+                "originalReleaseYear": 2009
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm124715",
+            "content": {
+              "title": "L'Année du dragon",
+              "fullPath": "/fr/film/lannee-du-dragon",
+              "originalReleaseYear": 1985
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1653579",
+            "content": {
+              "title": "Terreur en haute mer",
+              "fullPath": "/fr/film/terreur-en-haute-mer-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm72301",
+            "content": {
+              "title": "Persepolis",
+              "fullPath": "/fr/film/persepolis",
+              "originalReleaseYear": 2007
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1963",
+            "content": {
+              "title": "3 Hommes et un couffin",
+              "fullPath": "/fr/film/three-men-and-a-cradle",
+              "originalReleaseYear": 1985
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 8,
+              "clearName": "Netflix",
+              "shortName": "nfx"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1093369",
+            "content": {
+              "title": "La Daronne",
+              "fullPath": "/fr/film/la-daronne",
+              "originalReleaseYear": 2020
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm45681",
+            "content": {
+              "title": "Tootsie",
+              "fullPath": "/fr/film/tootsie",
+              "originalReleaseYear": 1982
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm12443",
+            "content": {
+              "title": "L'Opération Corned Beef",
+              "fullPath": "/fr/film/operation-corned-beef",
+              "originalReleaseYear": 1991
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1063493",
+            "content": {
+              "title": "Hitman & Bodyguard 2",
+              "fullPath": "/fr/film/hitman-and-bodyguard-2",
+              "originalReleaseYear": 2021
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm58235",
+            "content": {
+              "title": "Un fauteuil pour deux",
+              "fullPath": "/fr/film/un-fauteuil-pour-deux",
+              "originalReleaseYear": 1983
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm35081",
+            "content": {
+              "title": "The Children",
+              "fullPath": "/fr/film/the-children",
+              "originalReleaseYear": 2008
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1570734",
+            "content": {
+              "title": "Opus",
+              "fullPath": "/fr/film/opus",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm172656",
+            "content": {
+              "title": "Sahara",
+              "fullPath": "/fr/film/sahara-2005",
+              "originalReleaseYear": 2005
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm266684",
+            "content": {
+              "title": "Hitman & Bodyguard",
+              "fullPath": "/fr/film/hitman-and-bodyguard",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm144054",
+            "content": {
+              "title": "Tellement proches",
+              "fullPath": "/fr/film/tellement-proches",
+              "originalReleaseYear": 2009
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm371923",
+            "content": {
+              "title": "La Mule",
+              "fullPath": "/fr/film/la-mule",
+              "originalReleaseYear": 2018
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm233881",
+            "content": {
+              "title": "La Vie très privée de monsieur Sim",
+              "fullPath": "/fr/film/la-vie-tres-privee-de-monsieur-sim",
+              "originalReleaseYear": 2015
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss545894",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/snake-killer/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts512649",
+              "content": {
+                "title": "Snake Killer",
+                "fullPath": "/fr/serie/snake-killer",
+                "originalReleaseYear": 2026
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm8359",
+            "content": {
+              "title": "Boyz n the Hood : La loi de la rue",
+              "fullPath": "/fr/film/boyz-n-the-hood",
+              "originalReleaseYear": 1991
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1583195",
+            "content": {
+              "title": "Les Rêveurs",
+              "fullPath": "/fr/film/les-reveurs-2025",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm24282",
+            "content": {
+              "title": "L'Échange",
+              "fullPath": "/fr/film/lechange-2000",
+              "originalReleaseYear": 2000
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm327289",
+            "content": {
+              "title": "Stars 80, la suite",
+              "fullPath": "/fr/film/stars-80-la-suite",
+              "originalReleaseYear": 2017
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss71046",
+            "content": {
+              "title": "Saison 9",
+              "fullPath": "/fr/serie/sam-tan/saison-9",
+              "seasonNumber": 9
+            },
+            "show": {
+              "id": "ts2760",
+              "content": {
+                "title": "Sam le pompier",
+                "fullPath": "/fr/serie/sam-tan",
+                "originalReleaseYear": 1987
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm54385",
+            "content": {
+              "title": "Le Grand Chemin",
+              "fullPath": "/fr/film/the-grand-highway-1988",
+              "originalReleaseYear": 1987
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm97618",
+            "content": {
+              "title": "Le Dernier exorcisme",
+              "fullPath": "/fr/film/le-dernier-exorcisme",
+              "originalReleaseYear": 2010
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss84420",
+            "content": {
+              "title": "Saison 2",
+              "fullPath": "/fr/serie/babylon-berlin/saison-2",
+              "seasonNumber": 2
+            },
+            "show": {
+              "id": "ts42477",
+              "content": {
+                "title": "Babylon Berlin",
+                "fullPath": "/fr/serie/babylon-berlin",
+                "originalReleaseYear": 2017
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1436087",
+            "content": {
+              "title": "Red Right Hand",
+              "fullPath": "/fr/film/red-right-hand",
+              "originalReleaseYear": 2024
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Season",
+            "id": "tss340209",
+            "content": {
+              "title": "Saison 1",
+              "fullPath": "/fr/serie/le-meilleur-dentre-nous/saison-1",
+              "seasonNumber": 1
+            },
+            "show": {
+              "id": "ts330706",
+              "content": {
+                "title": "Le Meilleur d'Entre Nous",
+                "fullPath": "/fr/serie/le-meilleur-dentre-nous",
+                "originalReleaseYear": 2022
+              }
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm197578",
+            "content": {
+              "title": "Connasse, princesse des cœurs",
+              "fullPath": "/fr/film/connasse-princesse-des-coeurs",
+              "originalReleaseYear": 2015
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 119,
+              "clearName": "Amazon Prime Video",
+              "shortName": "prv"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm276465",
+            "content": {
+              "title": "Une invitée indésirable",
+              "fullPath": "/fr/film/une-invitee-indesirable",
+              "originalReleaseYear": 2016
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1584190",
+            "content": {
+              "title": "King of the Apocalypse - Les fous de Trump",
+              "fullPath": "/fr/film/king-of-the-apocalypse-les-fous-de-trump",
+              "originalReleaseYear": 2025
+            }
+          }
+        },
+        {
+          "newOffer": {
+            "monetizationType": "FLATRATE",
+            "package": {
+              "packageId": 381,
+              "clearName": "Canal+",
+              "shortName": "cpd"
+            }
+          },
+          "node": {
+            "__typename": "Movie",
+            "id": "tm1629239",
+            "content": {
+              "title": "Le Gâteau du Président",
+              "fullPath": "/fr/film/the-presidents-cake",
+              "originalReleaseYear": 2026
+            }
+          }
+        }
+      ]
+    }
+  }
+}
