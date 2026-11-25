@@ -52,7 +52,7 @@ test('JustWatch down at every cycle: one warning, then one line at recovery', as
     await cycle(w);
   }
   assert.deepEqual(lines.map(strip), [
-    '[WARN] [justwatch] JustWatch unreachable: JustWatch answered HTTP 503: Down',
+    '[WARN] [justwatch] Reading JustWatch failed: JustWatch answered HTTP 503: Down',
   ]);
   w.api.down = false;
   await cycle(w);

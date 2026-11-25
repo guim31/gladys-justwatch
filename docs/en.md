@@ -133,7 +133,8 @@ version: `Dune (1984)`.
 ## Limits
 
 - Not an official API: it may change without notice.
-- Rentals and purchases are not counted, nor the add-on channels of a platform (Prime Video Channels…).
+- Rentals and purchases are not counted. An add-on channel ("France TV Amazon Channel"…) counts only when you name
+  it in full.
 - Five pages of 100 titles per day at most; beyond (a very large selection), the rest of the day is ignored.
 - The order of the titles of a day is JustWatch's (popularity), not the time they arrived.
 - Fourteen countries are offered (Europe and North America).

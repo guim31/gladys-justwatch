@@ -32,6 +32,9 @@ test('the platforms of France and of Germany, matched from what a user types', a
   assert.equal(name(fr, 'canal +'), 'Canal+');
   assert.equal(name(fr, 'nfx'), 'Netflix');
   assert.equal(name(fr, 'Platform That Does Not Exist'), undefined);
+  // An add-on channel only when named as such.
+  assert.equal(name(fr, 'France TV'), undefined);
+  assert.equal(name(fr, 'France TV Amazon Channel'), 'France TV Amazon Channel');
   assert.equal(name(de, 'Disney+'), 'Disney Plus');
   assert.equal(fold('Ça c’est Canal+ !'), 'cacestcanalplus');
 });

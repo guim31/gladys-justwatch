@@ -139,7 +139,8 @@ pour choisir une version : `Dune (1984)`.
 ## Limites
 
 - Pas une API officielle : elle peut changer sans prévenir.
-- La location et l'achat ne comptent pas, ni les chaînes en option d'une plateforme (Prime Video Channels…).
+- La location et l'achat ne comptent pas. Une chaîne en option (« France TV Amazon Channel »…) ne compte que si vous
+  la nommez en entier.
 - Cinq pages de 100 titres par jour au plus ; au-delà (une très grande sélection), le reste de la journée est ignoré.
 - L'ordre des titres d'une journée est celui de JustWatch (popularité), pas l'heure d'arrivée.
 - Quatorze pays sont proposés (Europe et Amérique du Nord).

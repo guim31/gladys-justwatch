@@ -136,7 +136,8 @@ elegir una versión: `Dune (1984)`.
 ## Límites
 
 - No es una API oficial: puede cambiar sin aviso.
-- El alquiler y la compra no cuentan, ni los canales adicionales de una plataforma (Prime Video Channels…).
+- El alquiler y la compra no cuentan. Un canal adicional («Paramount Plus Apple TV channel»…) solo cuenta si lo
+  nombra completo.
 - Cinco páginas de 100 títulos por día como máximo; más allá (una selección muy grande), se ignora el resto del día.
 - El orden de los títulos de un día es el de JustWatch (popularidad), no la hora de llegada.
 - Se ofrecen catorce países (Europa y Norteamérica).

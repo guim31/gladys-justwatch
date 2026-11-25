@@ -139,7 +139,8 @@ hinzu, um eine Fassung zu wählen: `Dune (1984)`.
 ## Grenzen
 
 - Keine offizielle API: Änderungen ohne Vorwarnung sind möglich.
-- Leihen und Kaufen zählen nicht, ebenso wenig die Zusatzkanäle einer Plattform (Prime Video Channels…).
+- Leihen und Kaufen zählen nicht. Ein Zusatzkanal („WOW Amazon Channel“…) zählt nur, wenn du ihn vollständig
+  nennst.
 - Höchstens fünf Seiten mit 100 Titeln pro Tag; darüber hinaus (eine sehr große Auswahl) wird der Rest des Tages
   ignoriert.
 - Die Reihenfolge der Titel eines Tages ist die von JustWatch (Beliebtheit), nicht die Ankunftszeit.

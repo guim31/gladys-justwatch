@@ -268,7 +268,7 @@ export class Monitor {
         reached += 1;
       } catch (err) {
         unreachable += 1;
-        this.failed('api', 'warn', `JustWatch unreachable: ${err.message}`);
+        this.failed('api', 'warn', `Reading JustWatch failed: ${err.message}`);
         logger.debug(err.message);
       }
     };
@@ -803,9 +803,12 @@ export function matchPlatform(packages, typed) {
   if (exact) {
     return exact;
   }
+  // An add-on channel ("France TV Amazon Channel") is a subscription of its
+  // own: taken only when named as such.
+  const channel = wanted.includes('channel');
   return (
     packages
-      .filter((p) => fold(p.name).includes(wanted))
+      .filter((p) => fold(p.name).includes(wanted) && (channel || !/channel/i.test(p.name)))
       .sort((a, b) => a.name.length - b.name.length)[0] ?? null
   );
 }
