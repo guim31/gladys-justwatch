@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-11-25
+
 ### Added
 
 - One device per list of streaming platforms (up to three, films and/or
@@ -23,3 +25,6 @@ the notes of the version's GitHub Release.
 - Dashboard widget "JustWatch new titles": latest arrivals of 1, 3 or 7 days,
   and where the watched titles are.
 - Texts and documentation in English, French, German and Spanish.
+
+[Unreleased]: https://github.com/guim31/gladys-justwatch/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/guim31/gladys-justwatch/releases/tag/v1.0.0
